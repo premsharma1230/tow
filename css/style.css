@@ -485,6 +485,7 @@ main .Main-form-wrp .child-content .Form-wrp .Fbtn-tab ul {
 }
 
 main .Main-form-wrp .child-content .Form-wrp .Fbtn-tab ul li {
+  width: 47%;
   padding: .7rem 1.5rem;
   border-radius: 5px;
   color: #ffffff;
