@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-   <main>
+   <main class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
        <header class="navbar" id="navbar">
              <div class="container">
                  <nav>
@@ -63,24 +64,25 @@
        </header>
 
        <!-- banner -->
-     <section class="Banner_Wrapper">
+     <section class="Banner_Wrapper wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
          <div class="slider-child slider1 owl-carousel">
-            <div class="banner-fig-wrp">
+            <div class="banner-fig-wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <figure><img src="image/banner1.jpg" alt="img"></figure>
                 </div>
-            <div class="banner-fig-wrp">
+            <div class="banner-fig-wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <figure><img src="image/banner2.jpg" alt="img"></figure>
             </div>
-            <div class="banner-fig-wrp">
+            <div class="banner-fig-wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <figure><img src="image/banner3.jpg" alt="img"></figure>
             </div>
         </div>
      </section>
        <!-- banner--end -->
-       <section class="Main-form-wrp">
+       <section class="Main-form-wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
            <div class="container">
             <div class="child-content">
-            <div class="Form-wrp">
+            <div class="Form-wrp" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div class="container">
                     <div class="frm-heading">
                         <h2>Find your right vehical</h2>
@@ -159,9 +161,9 @@
            </div>
        </section>
 
-       <section class="Features-Wrapper">
+       <section class="Features-Wrapper wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
             <div class="container">
-                 <div class="Feaures-content">
+                 <div class="Feaures-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                      <div class="Feature-heading">
                          <ul class="Top-heading">
                              <li>Features vehicles</li>
@@ -172,7 +174,7 @@
                              <li class="Ft" onclick="openFeature('FeatureList2')">Latest</li>
                          </ul>
                      </div>
-                     <div class="Feature-item-wrp vehical-item Feature1" id="FeatureList1">
+                     <div class="Feature-item-wrp vehical-item Feature1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="FeatureList1">
                          <ul class="FItem-wrp slider2 owl-carousel">
                              <li class="Feature-item1 F-item-cmn">
                                  <figure>
@@ -221,7 +223,7 @@
                              </li>
                          </ul>
                      </div>
-                     <div class="Feature-item-wrp vehical-item Feature2" id="FeatureList2" style="display: none;">
+                     <div class="Feature-item-wrp vehical-item Feature2 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="FeatureList2" style="display: none;">
                         <ul class="FItem-wrp slider2 owl-carousel">
                             <li class="Feature-item1 F-item-cmn">
                                  <figure>
@@ -272,7 +274,7 @@
                     </div>
                  </div>
                  <!-- Popular ---car -->
-                 <div class="Feaures-content">
+                 <div class="Feaures-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                     <div class="Feature-heading">
                         <ul class="Top-heading">
                             <li>Popular Cars</li>
@@ -283,7 +285,7 @@
                             <li class="Ft" onclick="openPopFeature('Pop-FeatureList2')">Used</li>
                         </ul>
                     </div>
-                    <div class="Feature-item-wrp Popular-item Feature1" id="Pop-FeatureList1">
+                    <div class="Feature-item-wrp Popular-item Feature1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Pop-FeatureList1">
                         <ul class="FItem-wrp slider2 owl-carousel">
                             <li class="Feature-item1 F-item-cmn">
                                 <figure>
@@ -332,7 +334,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="Feature-item-wrp Popular-item Feature2" id="Pop-FeatureList2" style="display: none;">
+                    <div class="Feature-item-wrp Popular-item Feature2 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Pop-FeatureList2" style="display: none;">
                        <ul class="FItem-wrp slider2 owl-carousel">
                            <li class="Feature-item1 F-item-cmn">
                                 <figure>
@@ -384,7 +386,7 @@
                 </div>
                  <!-- end---here--popular---car -->
             <!-- Popular ---Bike -->
-                    <div class="Feaures-content">
+                    <div class="Feaures-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                         <div class="Feature-heading">
                             <ul class="Top-heading">
                                 <li>Popular Bikes</li>
@@ -395,7 +397,7 @@
                                 <li class="Ft" onclick="openBikeItem('Bike-item2')">Used</li>
                             </ul>
                         </div>
-                        <div class="Feature-item-wrp Bike-item Feature1" id="Bike-item1">
+                        <div class="Feature-item-wrp Bike-item Feature1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Bike-item1">
                             <ul class="FItem-wrp slider2 owl-carousel">
                                 <li class="Feature-item1 F-item-cmn">
                                     <figure>
@@ -444,7 +446,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="Feature-item-wrp Bike-item Feature2" id="Bike-item2" style="display: none;">
+                        <div class="Feature-item-wrp Bike-item Feature2 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Bike-item2" style="display: none;">
                            <ul class="FItem-wrp slider2 owl-carousel">
                                <li class="Feature-item1 F-item-cmn">
                                     <figure>
@@ -496,14 +498,14 @@
                     </div>
             <!-- end---here--popular---Bike -->
               <!-- Brands --- -->
-              <div class="Feaures-content">
+              <div class="Feaures-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="Feature-heading">
                     <ul class="Top-heading">
                         <li>Top Brands</li>
                         <li> <a href="#">View all</a> </li>
                     </ul>  
                 </div>
-                <div class="Feature-item-wrp Brand-wrp Feature1" id="Bike-item1">
+                <div class="Feature-item-wrp Brand-wrp Feature1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Bike-item1">
                     <ul class="FItem-wrp slider2 owl-carousel">
                         <li class="Feature-item1 F-item-cmn">
                             <figure>
@@ -550,13 +552,13 @@
             </div>
             <!-- end---here--brands---Bike -->
               <!-- Brands --- -->
-              <div class="Feaures-content">
+              <div class="Feaures-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="Feature-heading">
                     <ul class="Top-heading">
                         <li>Used Vehicles in India</li> 
                     </ul>  
                 </div>
-                <div class="Feature-item-wrp Brand-wrp Feature1" id="Bike-item1">
+                <div class="Feature-item-wrp Brand-wrp Feature1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;" id="Bike-item1">
                     <ul class="FItem-wrp slider3 owl-carousel">
                         <li class="Feature-item1 F-item-cmn">
                             <figure>
@@ -613,7 +615,7 @@
 
 
        <!-- footer -->
- <footer>
+ <footer class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
     <div class="container">
         <div class="footer-content">
             <div class="ft1 ft-cmn">
@@ -681,18 +683,13 @@
     <script src="js/vanilla-tilt.babel.min.js"></script> 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <!-- <script src="js/stellarnav.min.js"></script> -->
-    <!-- <link rel="stylesheet" type="text/css" media="all" href="css/stellarnav.min.css"> -->
-    <!-- <script>
+    <script src="js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
         new WOW().init();
     </script>
-    <script>
+   <script>
         AOS.init();
-      </script> -->
-      <!-- <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            jQuery('.stellarnav').stellarNav();
-        });
-    </script> -->
+      </script>  
 </body>
 </html>
