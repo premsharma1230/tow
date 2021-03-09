@@ -23,32 +23,15 @@ $(document).ready(function(){
 //   $(".checkbox").click(function(){
 //        $(".b1").fadeToggle("");
 //   })
-  // add & Remove class
-  // $(".blank-heart").click(function () {
-  //   if(!$(this).hasClass('heart-active'))
-  //   {    
-  //       $(".blank-heart.heart-active").removeClass("heart-active");
-  //        $(".blank-heart.heart-active").css("transition","all .4s ease-in-out");
-  //       $(this).addClass("heart-active");  
-  //       $(this).css("transition","all .4s ease-in-out");      
-  //   }
-  // });
-
+ 
+ 
+  
 //-----------heart------//
 
-  $(".blank-heart").click(function(){
-       $(".Fill-heart").css("display","block");
-       $(this).css("display","none" );
-      //  $(this).effect("bounce", "slow");
+  $(".Fill-heart .fa-heart").click(function( ){ 
+       $(this).toggleClass("active-heart");
   })
-
-
-
-  $(".Fill-heart").click(function(){
-    $(".blank-heart").css("display","block");
-    $(this).css("display","none");
-    // $(this).effect("bounce", "slow");
-})
+ 
 
 // ---Collapse-1---
 $(".collap-head1").click(function(){
@@ -200,6 +183,7 @@ $(".collap-head9").click(function(){
         }
       });
 })
+ 
 
 //---formmm---active--
 function openList(ListName) {
@@ -271,3 +255,22 @@ function topFunction() {
     
 
    
+//--bottom--to--top--- and------stickyyy---on----header---//
+// var mybutton = document.querySelector(".BT-top"); 
+// //var sticky = navbar.offsetTop;
+// window.onscroll = function() {
+//     BtTop()  
+// };
+// function BtTop() {
+//     if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+//         mybutton.style.display = "block"; 
+//     } else {
+//         mybutton.style.display = "none"; 
+//     }
+// } 
+
+// function bottomTop() {
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
+// };
+// //end--here--//
