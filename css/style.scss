@@ -491,6 +491,7 @@ main{
                         width: 100%;
                         height: 200px;
                         overflow: hidden; 
+                        text-align: $mid;
                          img{
                              max-width: 100%;
                              border-radius: 10px;
@@ -529,7 +530,7 @@ main{
                     box-shadow: 0 0 6px 1px #999;
                     position: absolute;
                     right: -42px;
-                    top: 50%;
+                    top: 28%;//50%;
                     outline: none;
                     @include flex;
                     transition: $transition;
@@ -541,6 +542,12 @@ main{
                     }
                     span{
                         font-size:2.1em; 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;height: 100%; 
+                        border-radius: 50%;
+                        // border: 1px solid; 
                     }
                  }
                  .owl-prev{
@@ -729,20 +736,34 @@ main{
                            right: 10px;
                            top: 10px;
                            z-index: 21;
-                           .blank-heart{
-                               i{
-                                color: red;
-                                cursor: pointer;
-                                font-size:1.2em;
+                        //    .blank-heart{
+                        //        i{
+                        //         color: red;
+                        //         cursor: pointer;
+                        //         font-size:1.2em;
+                        //        }
+                        //    }
+                           .Fill-heart{  
+                               .fa-heart{
+                                   color: #c2c2c2;
+                                   cursor: pointer;
                                }
-                           }
-                           .Fill-heart{ 
-                            display: none;
-                               i{
-                                font-size:1.2em;
-                                color: red;
-                                cursor: pointer; 
+                               .active-heart{
+                                   color: red;
+                                   cursor: pointer;
                                }
+                            // svg{
+                            //     // fill: #c2c2c2;
+                            //     path{
+                            //         fill: #c2c2c2;
+                            //         cursor: pointer;
+                            //     }
+                            // }
+                            //    i{
+                            //     font-size:1.2em;
+                            //     color: red;
+                            //     cursor: pointer; 
+                            //    }
                            }
                        }
                        figcaption{
@@ -966,6 +987,47 @@ main{
 }
 // -----Car--list--Page-end--here---//
 
+// -----botttunm-----top-----
+.BT-top {
+    right: 26px;
+    bottom: 38px;
+    position: fixed;
+    z-index: 3;
+    display: none;
+    a { 
+        @include flex;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%; 
+        box-shadow: 0px 0px 3px 2px #ffffff38;
+        background:$site-color; 
+        transition: $transition;
+        border: 1px solid #ffffff61;
+        text-decoration: $none;
+        i {
+            color: #fff;
+            font-size: 15px;
+            transition: $transition;
+        }
+        &:hover {
+            opacity: .77;
+            transition: $transition;
+            box-shadow: 0 0 3px 3px #fff;
+            .fa-angle-up {
+                font-size: 1.1em; 
+                transition: $transition;
+            }
+        }
+    }
+}
+// butttonnnn----top----end-----here-----
+
+
+
+
+
+
+
 // ------Bike--list---page---//
 .BikeList-Wrapper{
 width: 100%;
@@ -976,3 +1038,135 @@ width: 100%;
     width: 100%;
 }
 // -----Commercial--list--Page-end--here---//
+
+// -----Used-Bike--list---page---//
+.Used_bike_Wrapper{
+    width: 100%;
+    .Used-bike-wrp{
+        .breadcmb{
+            ul{
+                @include flex;
+                justify-content: flex-start;
+                li{
+                    margin: .5rem .5rem 1.2rem 0;
+                    .fa-caret-right{
+                        font-size: 15px;
+                        color: #000;
+                        padding: 0  0 0 .5rem;
+                    }
+                  a{
+                    font-size: 1.1em;
+                    text-transform: $cap;
+                    word-spacing: 1px;
+                    letter-spacing: .5px;
+                    text-decoration: $none;
+                    color: #000;
+                    transition: $transition;
+                    &:hover{
+                        transition: $transition;
+                        color: #172f55;
+                        font-weight: bold;
+                    }
+                  }
+                  .Usedactive{
+                    color: #172f55;
+                    font-weight: bold;
+                    transition: $transition;
+                    &:hover{
+                        transition: $transition;
+                        opacity: .77;
+                    }
+                  }
+                }
+            }
+        }
+        .Used-bike-right{
+            .right-top-heading{
+                @include flex;
+                justify-content: $between;
+                h5{
+                    font-size: 1em;
+                    text-transform: $cap;
+                    word-spacing: 1px;
+                    letter-spacing: .5px;
+                    color: #172f55b3;
+                    transition:$transition;
+                    cursor: pointer;
+                    &:hover{
+                        transition:$transition;
+                        color: #000;
+                    }
+                }
+                .location{
+                    width: 100%; padding: .9rem 0 .5rem;
+                    position: relative;
+                    .LC-Map{
+                        position: absolute;
+                        right: 40px;
+                        top: 24px;
+                        i{
+                            font-size: 1.1em;
+                            color: #172f55;
+                            transition: $transition;
+                            cursor: pointer;
+                            animation: Lmapanime 4s linear infinite; 
+                            &:hover{
+                                transition: $transition; 
+                                transform: rotateY(180deg)scale(1.1); 
+                                animation-play-state: paused;
+                                color: #000;
+                            }
+                            @keyframes Lmapanime {
+                                0%,100%{
+                                    transform: translateY(3px);
+                                    transition: $transition;
+                                }
+                                50%{
+                                    transform: translateY(-3px); 
+                                    transition: $transition;
+                                }
+                            }
+                        }
+                    }
+                    input{ 
+                        padding: .7rem .5rem;
+                        text-transform: $cap;
+                        font-size: 14px;
+                        color: #999; 
+                        outline: none;
+                        width: 85%;
+                        margin: 0 auto 1rem auto!important;
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: center;
+                        border: 1px solid #999;
+                        transition: $transition;
+                        &:hover{
+                            transition: $transition;
+                            border:1px solid #000;
+                        }
+                        &:focus{
+                            transition: $transition;
+                            box-shadow:0 0 3px 1px #172f5570
+                        } 
+                    }
+                }
+            }
+        }
+    }
+ }
+// ----Used-Bike--list--Page-end--here---//
+
+
+// -----Used-car--list---page---//
+.Used-car-Wrapper {
+    width: 100%;
+}
+// ----Used-car--list--Page-end--here---//
+// -----Used-commercial--list---page---//
+.Used_commercial_Wrapper {
+    width: 100%;
+}
+// ----Used-commercial--list--Page-end--here---//
+
+@import 'media';
