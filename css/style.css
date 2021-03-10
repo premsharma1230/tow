@@ -55,6 +55,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -1626,6 +1630,173 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 
 .Used_commercial_Wrapper {
   width: 100%;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .auction-cmn01 {
+  width: 48%;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  color: #172f55;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-right: 1.5rem;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a {
+  padding: .5rem 1.6rem;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+  margin: .4rem 1.5rem .4rem 0;
+  color: #172f55;
+  font-weight: 500;
+  border: 1px solid #172f55;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .85;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 .Featur-active a {
+  background: #172f55;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 li a {
+  padding: .5rem 0rem;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+  margin: .4rem 1.2rem .4rem 0;
+  color: #172f55;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: inherit !important;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 li a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .85;
+}
+
+.Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 .auction-active a {
+  border-bottom: 1px solid #000 !important;
+  color: #000;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .4rem .4rem;
+  border-radius: 5px;
+  background: #172f55;
+  margin: 0 0 .8rem;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp .aut-a1 {
+  text-align: left;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp .aut-a2 {
+  text-align: right;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp .aut-cmn {
+  width: 50%;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp .aut-cmn span {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.Auction-Wrapper .Auction-wrp .Auction-child-wrp .Used-action-left .auct-notify-wrp .aut-cmn b {
+  color: #00ff00;
+  font-size: 15px;
+  padding: 0 .2rem 0 0;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -1170,4 +1170,132 @@ width: 100%;
 }
 // ----Used-commercial--list--Page-end--here---//
 
+
+// -----Auction--------page---//
+.Auction-Wrapper{
+    .Auction-wrp{
+       .auction-top-heading{
+           @include flex;
+           justify-content: $between;
+           .auction-cmn01{
+               width: 48%;
+           }
+           .Auction-heading1{
+             .Auction-tab-unord1{
+                 @include flex;
+                 justify-content: flex-start;
+                 h2{
+                     font-size: 1.5em;
+                     text-transform: $cap;
+                     color: $site-color;
+                     font-weight: bold;
+                     line-height: 1.5;
+                     margin-right: 1.5rem;
+                 }
+                 li{
+                    a{
+                        padding:.5rem 1.6rem;
+                        text-transform: $cap;
+                        font-size:1.1em;
+                        word-spacing: 1px;
+                        letter-spacing: .5px;
+                        line-height: 1.5;
+                        margin: .4rem 1.5rem .4rem 0;
+                        color: #172f55;
+                        font-weight: 500;
+                        border: 1px solid #172f55;
+                        border-radius: 5px;
+                        transition:$transition; 
+                        &:hover{
+                            transition:$transition;
+                            opacity: .85;
+                        }
+                     }
+                    }
+                    .Featur-active{
+                       a{
+                        background: $site-color;
+                        color:$fff;
+                        transition:$transition;
+                       }
+                    }
+              }  
+           }
+           .Auction-heading2{
+               .Auction-tab-unord2{
+                @include flex;
+                justify-content: flex-end;
+                li{
+                    a{
+                        padding:.5rem 0rem;
+                        text-transform: $cap;
+                        font-size:1.1em;
+                        word-spacing: 1px;
+                        letter-spacing: .5px;
+                        line-height: 1.5;
+                        margin:.4rem 1.2rem .4rem 0;
+                        color: #172f55;
+                        font-weight: 500; 
+                        // border-radius: 5px;
+                        transition:$transition; 
+                        border: inherit!important;
+                        &:hover{
+                            transition:$transition;
+                            opacity: .85;
+                        }
+                     }
+                    }
+                    .auction-active{
+                       a{
+                         border-bottom:1px solid #000!important;
+                         color: #000;
+                         font-weight: bold;
+                         transition:$transition;
+                       }
+                    }
+               }
+           }
+       } 
+
+     //------
+      .Auction-child-wrp{
+          .Used-action-left{
+             .auct-notify-wrp{
+                 @include flex;
+                 justify-content: $between;
+                 padding: .4rem .4rem;
+                 border-radius: 5px;
+                 background: #172f55;
+                 margin: 0 0 .8rem;
+                 .aut-a1{
+                     text-align: left;
+                 }
+                 .aut-a2{
+                    text-align: right;
+                }
+               .aut-cmn{
+                   width: 50%;
+                   span{
+                       color:#fff;
+                       font-size: 15px;
+                       text-transform: $cap;
+                   }
+                   b{ 
+                    color:#00ff00;font-size: 15px;
+                    padding: 0 .2rem 0 0;     
+                }
+               }  
+             } 
+          }
+      }
+    }
+}
+
+// ----Auction-------Page-end--here---//
+
+
+
+
+
+
 @import 'media';

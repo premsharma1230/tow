@@ -20,6 +20,16 @@ $(document).ready(function(){
             $(this).css("transition","all .4s ease-in-out");      
         }
       });
+        // add & Remove class
+    $(".auct").click(function () {
+      if(!$(this).hasClass('auction-active'))
+      {    
+          $(".auct.auction-active").removeClass("auction-active");
+           $(".auct.auction-active").css("transition","all .4s ease-in-out");
+          $(this).addClass("auction-active");  
+          $(this).css("transition","all .4s ease-in-out");      
+      }
+    });
 //   $(".checkbox").click(function(){
 //        $(".b1").fadeToggle("");
 //   })
@@ -252,6 +262,33 @@ function topFunction() {
 };
 //end--here--//
 
+
+// -----timer------cuuurrrrnent---
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds(); 
+
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+  t = setTimeout(function() {
+    startTime()
+  }, 500);
+}
+startTime();
+
+
+
+// 
     
 
    
