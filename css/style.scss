@@ -1293,9 +1293,119 @@ width: 100%;
 
 // ----Auction-------Page-end--here---//
 
+// -----Car--color--------page---//
+.Car_Color_Wrapper{
+    .Car-Clr-Wrp{
+        .Car-Clr-content{
+            .Car-Clr-Left{
+                width: 100%!important;
+                border-right:inherit!important;
+                .Ft{
+                    i.fas.fa-angle-down {
+                        color: #172f55;
+                        vertical-align: middle;
+                        padding: 2px 0 0 5px;
+                        font-size: 1em;
+                        transition: $transition;
+                    }
+                }
+                .Featur-active{
+                    i.fas.fa-angle-down{
+                        transform: rotateX(-180deg);
+                        transition: $transition;
+                        color: #000;
+                    }
+                }
+                .Feature-item-wrp{
+                  .FItem-wrp{
+                     .Fitem-heading{
+                         width: 100%!important;
+                         h2{
+                             font-size: 1.3em;
+                             letter-spacing: .5px;
+                             word-spacing: 1px;
+                             line-height: 1.5;
+                             color:#000;
+                             text-transform: $cap;
+                         }
+                         p{
+                             font-size: 1em;
+                             letter-spacing: .5px;
+                             word-spacing: 1px;
+                             line-height: 1.5;
+                             color:#000;
+                             padding: .5rem 0 .5rem;
+                             text-transform: $cap;
+                         }
+                     } 
+                  }   
+                  .F-item-cmn{
+                    width: 85% !important;
+                    margin: 2rem auto 1rem;
+                    padding: .5rem 0 0!important;
+                    position: inherit!important;
+                    figure{
+                        height: 100%!important;
+                        img{
+                            height: 100%!important;
+                        }
+                    }
+                    figcaption{
+                        ul.notify-bar {
+                            width: 100%;
+                            @include flex;
+                            justify-content: $between;
+                            padding: .5rem 0;
+                            background: #eee;
+                            li{
+                                margin: 0 0!important;
+                                border: inherit!important;
+                                background: transparent;
+                                span{
+                                    i{
+                                    font-size: 1.1em;
+                                    color: #999;
+                                    transition: $transition;
+                                    cursor: pointer;
+                                    &:hover{
+                                        transition: $transition;
+                                        transform: scale(1.1);
+                                        color: $site-color;
+                                    }
+                                    }
+                                }
+                            }
+                            .nt1{
+                                text-align: left;
+                            }
+                            .nt2{
+                                @include flex;
+                                justify-content: flex-end;
+                                span{
+                                    margin: 0 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                    .expand-wrp{
+                        background: rgba(0, 0, 0, 0.294);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        img{
+                            max-width: 100%;
+                            height: 200px;
+                        }
+                    }
+                  } 
+                }
+            }
+        }
+    }
+}
 
-
-
+// ----Car-color-------Page-end--here---//
 
 
 @import 'media';

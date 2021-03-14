@@ -104,7 +104,11 @@ $(".collap-head9").click(function(){
   $(this).toggleClass("collape-active9");
 })
 // ---Collapse9999-----end---here
-
+// ---Expand---img----
+$(".Expand").click(function(){ 
+  $(".Ft-Fig").toggleClass("expand-wrp");
+})
+// ---Expand---img-----end---here
 
       // ------slider1--
   $('.slider1').owlCarousel({

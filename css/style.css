@@ -1799,6 +1799,146 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
   padding: 0 .2rem 0 0;
 }
 
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left {
+  width: 100% !important;
+  border-right: inherit !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Ft i.fas.fa-angle-down {
+  color: #172f55;
+  vertical-align: middle;
+  padding: 2px 0 0 5px;
+  font-size: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Featur-active i.fas.fa-angle-down {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .FItem-wrp .Fitem-heading {
+  width: 100% !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .FItem-wrp .Fitem-heading h2 {
+  font-size: 1.3em;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .FItem-wrp .Fitem-heading p {
+  font-size: 1em;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  line-height: 1.5;
+  color: #000;
+  padding: .5rem 0 .5rem;
+  text-transform: capitalize;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn {
+  width: 85% !important;
+  margin: 2rem auto 1rem;
+  padding: 0.5rem 0 0 !important;
+  position: inherit !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figure {
+  height: 100% !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figure img {
+  height: 100% !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .5rem 0;
+  background: #eee;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar li {
+  margin: 0 0 !important;
+  border: inherit !important;
+  background: transparent;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar li span i {
+  font-size: 1.1em;
+  color: #999;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar li span i:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #172f55;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar .nt1 {
+  text-align: left;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar .nt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar .nt2 span {
+  margin: 0 1.5rem;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn .expand-wrp {
+  background: rgba(0, 0, 0, 0.294);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn .expand-wrp img {
+  max-width: 100%;
+  height: 200px;
+}
+
 @media only screen and (max-width: 1200px) {
   main header nav .nav-left-item .search-bar {
     width: 78%;
