@@ -196,6 +196,45 @@ $(".Expand").click(function(){
             }
         }
       });
+   // ------slider4--
+   $('.slider5').owlCarousel({
+    loop: false,
+    margin: 0,
+    // autoplay: true,
+     nav: true,
+    autoplayTimeout: 4000,
+    smartSpeed: 1500,
+    animateOut: 'fadeOut',
+    items:1, 
+    onInitialized  : counter,
+    onTranslated : counter,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+  });
+
+
+
+
+      function counter(event) {
+        var element   = event.target;         
+         var items     = event.item.count;     
+         var item      = event.item.index + 1;     
+       
+       // it loop is true then reset counter from 1
+       if(item > items) {
+         item = item - items
+       }
+       $('#counter').html("item "+item+" of "+items)
+     }
 })
  
 
