@@ -84,3 +84,12 @@ $no-rpt:no-repeat;
 $heading:'Gotham Pro bold';
 $paragraph:'Gotham Pro Regular';
 $transition:all .3s ease-in-out;
+
+@mixin h2 {
+    font-size: 1.5em;
+    text-transform: $cap;
+    line-height: 1.5;
+    word-spacing: 1px;
+    color: #172f55;
+    padding: 1rem 0;
+}

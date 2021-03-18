@@ -201,7 +201,7 @@ $(".Expand").click(function(){
     loop: false,
     margin: 0,
     // autoplay: true,
-     nav: true,
+    //  nav: true,
     autoplayTimeout: 4000,
     smartSpeed: 1500,
     animateOut: 'fadeOut',
@@ -213,10 +213,10 @@ $(".Expand").click(function(){
             items: 1
         },
         600: {
-            items: 2
+            items: 1
         },
         1000: {
-            items: 3
+            items: 1
         }
     }
   });

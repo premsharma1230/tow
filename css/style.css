@@ -1852,11 +1852,15 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 }
 
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figure {
-  height: 100% !important;
+  height: auto !important;
 }
 
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figure img {
-  height: 100% !important;
+  width: 75%;
+  margin: 0 auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 400px !important;
 }
 
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn figcaption ul.notify-bar {
@@ -1937,6 +1941,213 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .Feature-item-wrp .F-item-cmn .expand-wrp img {
   max-width: 100%;
   height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left #FeatureList5 {
+  padding: 2rem 1.5rem 6rem !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots {
+  position: absolute;
+  bottom: -155px;
+  left: 35%;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot.active {
+  position: relative;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot.active span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  height: 25px;
+  width: 12px;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  position: absolute;
+  left: 39%;
+  top: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot {
+  background: #000 !important;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .77;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:nth-child(1) {
+  background: #d5bca2 !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:nth-child(2) {
+  background: #7c0b14 !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:nth-child(3) {
+  background: #d3d3d3 !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:nth-child(4) {
+  background: #515151 !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .owl-dots .owl-dot:nth-child(5) {
+  background: #306d8a !important;
+}
+
+.Car_Color_Wrapper .Review-Wrapper {
+  width: 100%;
+  padding: 1rem 0 3rem;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Rerview-heading h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn {
+  width: 32%;
+  padding: .6rem 1rem;
+  border: 1px solid #dedcdc;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0 3px 2px rgba(153, 153, 153, 0.219);
+          box-shadow: 0 0 3px 2px rgba(153, 153, 153, 0.219);
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn span {
+  padding: .2rem .4rem;
+  border-radius: 5px;
+  background: #172f55;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 .5rem;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn span i {
+  color: #fff;
+  font-size: 12px;
+  padding: 0 .2rem;
+  vertical-align: middle;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn p {
+  font-size: 1em;
+  line-height: 1.5;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  color: #172f55;
+  text-transform: capitalize;
+  padding: 0 0 1rem;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem 0 0;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile figure {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile figure img {
+  max-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile figcaption {
+  padding: 0 0 0 1rem;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile figcaption h3 {
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  color: #172f55;
+}
+
+.Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn .profile figcaption strong {
+  color: #172f55;
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  padding: .2rem 0;
 }
 
 @media only screen and (max-width: 1200px) {

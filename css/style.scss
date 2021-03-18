@@ -1345,9 +1345,11 @@ width: 100%;
                     padding: .5rem 0 0!important;
                     position: inherit!important;
                     figure{
-                        height: 100%!important;
+                        height: auto!important;
                         img{
-                            height: 100%!important;
+                            width: 75%;margin: 0 auto;
+                            object-fit: contain;
+                            height: 400px!important;
                         }
                     }
                     figcaption{
@@ -1396,13 +1398,159 @@ width: 100%;
                         img{
                             max-width: 100%;
                             height: 200px;
+                            object-fit: contain;
                         }
                     }
                   } 
                 }
-            }
-        }
+                // ---
+                #FeatureList5 {
+                    padding: 2rem 1.5rem 6rem !important;
+                }
+                // ===owl---dots--
+                .owl-dots {
+                    position: absolute;
+                    bottom: -155px;
+                    left: 35%; 
+                    .owl-dot.active{
+                        position:relative;
+                        transform: scale(1.1);
+                        transition: $transition;
+                        span{
+                            display: flex;
+                            transform: rotate(45deg);
+                            height: 25px;
+                            width: 12px;
+                            border-bottom: 4px solid #ffffff;
+                            border-right: 4px solid #ffffff;
+                            position: absolute;
+                            left: 39%;
+                            top: 20%;
+                            justify-content: center;
+                            align-items: center;
+                            vertical-align: middle;
+                        }
+                    }
+                    .owl-dot {
+                        background: #000!important;
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        margin: 0 .5rem;
+                        border: none;
+                        outline: none; 
+                        transition: $transition;
+                        &:hover{
+                            transition: $transition;
+                            opacity: .77;
+                        }
+                        &:nth-child(1){
+                            background: #d5bca2!important;
+                        }
+                        &:nth-child(2){
+                            background: #7c0b14!important;
+                        }
+                        &:nth-child(3){
+                            background: #d3d3d3!important;
+                        }
+                        &:nth-child(4){
+                            background: #515151!important;
+                        }
+                        &:nth-child(5){
+                            background: #306d8a!important;
+                        }
+                    }
+                }
+
+                // -----owl---dots---//
+            } 
+        } 
     }
+         // ----Review---section--
+         .Review-Wrapper{
+            width: 100%;
+            padding: 1rem 0 3rem;
+            .Rerview-heading{
+                h2{
+                  @include h2; 
+                }
+            }
+            .Review-Content-wrp{
+                width: 100%;
+                @include flex;
+                justify-content: space-between;
+                .Rcmn{
+                    width: 32%;
+                    padding: .6rem 1rem;
+                    border: 1px solid #dedcdc;
+                    border-radius: 5px;
+                    transition: $transition;
+                    &:hover{
+                    transition: $transition;
+                    box-shadow: 0 0 3px 2px rgba(153, 153, 153, 0.219);
+                    }
+                    span{
+                        padding: .2rem .4rem;
+                        border-radius: 5px;
+                        background: #172f55;
+                        color: #fff;
+                        display: inline-block;
+                        margin: 0 0 .5rem;
+                        i{
+                            color: #fff;
+                            font-size: 12px;
+                            padding: 0 .2rem;
+                            vertical-align: middle;
+                        }
+                    }
+                    p{
+                    font-size:1em;
+                    line-height: 1.5;
+                    word-spacing: 1px;
+                    letter-spacing: .5px;
+                    color: #172f55;
+                    text-transform: $cap;
+                    padding: 0 0 1rem;
+                    }
+                    .profile{
+                        @include flex;
+                        justify-content: flex-start;
+                        padding: 1rem 0 0;
+                        figure{
+                            width: 80px;
+                            height: 80px;
+                            overflow: hidden;
+                            border-radius: 50%;
+                            img{
+                                max-width: 100%;
+                                min-height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        figcaption{
+                            padding: 0 0 0 1rem;
+                          h3{
+                              font-size: 15px;
+                              text-transform: $cap;
+                              word-spacing: 1px;
+                              letter-spacing: .5px;
+                              color: #172f55;
+                          }
+                          strong{
+                              color: #172f55;
+                              font-size: 15px;
+                            text-transform: $cap;
+                            word-spacing: 1px;
+                            letter-spacing: .5px;
+                            padding: .2rem 0;
+                          }
+                        }
+                    }
+                }
+            }
+        }  
+         //////-----Review---sectionn---end--
+        
 }
 
 // ----Car-color-------Page-end--here---//
