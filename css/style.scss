@@ -1316,7 +1316,7 @@ width: 100%;
                         color: #000;
                     }
                 }
-                .Feature-item-wrp{
+                .colour-wrp01{
                   .FItem-wrp{
                      .Fitem-heading{
                          width: 100%!important;
@@ -1468,8 +1468,10 @@ width: 100%;
     }
          // ----Review---section--
          .Review-Wrapper{
-            width: 100%;
+            width: 95%;
+            margin: 0 auto;
             padding: 1rem 0 3rem;
+            border-bottom: 1px solid #cfcfcf;
             .Rerview-heading{
                 h2{
                   @include h2; 
@@ -1497,6 +1499,7 @@ width: 100%;
                         display: inline-block;
                         margin: 0 0 .5rem;
                         i{
+                            cursor: pointer;
                             color: #fff;
                             font-size: 12px;
                             padding: 0 .2rem;
@@ -1549,8 +1552,99 @@ width: 100%;
                 }
             }
         }  
+        // .rv-hr{
+        //     width: 95%;
+        // }
          //////-----Review---sectionn---end--
-        
+       .Car-Slide-wrp{
+        .Car-Product{
+            width: 95%;
+            padding: 2rem 0 1rem;
+            margin:0 auto;
+            .Cars-heading{
+                h2{
+                   @include h2;
+                }
+            }
+            .FItem-wrp{
+                @include flex;
+                justify-content: $between;
+                .owl-dots{
+                    display: none!important;
+                }
+                .F-item-cmn{
+                   width: 90%!important;
+                   margin: 0 auto!important;
+                    figure{
+                       width: 100%;
+                       height: 200px;
+                       overflow: hidden; 
+                       text-align: $mid;
+                        img{
+                            max-width: 100%;
+                            border-radius: 10px;
+                            height: 200px;
+                            object-fit: fill;
+                            transition: $transition;
+                            &:hover{
+                                transition: $transition;
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                    figcaption{
+                       padding:1rem 0 0;
+                       h3{
+                           font-size: 1.1em;
+                           text-transform: $cap;
+                           word-spacing: 1px;
+                           letter-spacing: .5px;
+                           color:#000;
+                       }
+                       p{
+                           font-size: 16px;
+                           text-transform: $cap;
+                           word-spacing: 1px; 
+                           padding: .3rem 0 0;
+                           color: rgb(114, 114, 114);
+                       }
+                    }
+                }
+                .owl-next {
+                   background: #fff!important;
+                   width: 46px;
+                   height: 46px;
+                   border-radius: 50%;
+                   box-shadow: 0 0 6px 1px #999;
+                   position: absolute;
+                   right: -42px;
+                   top: 45%;// 28%;
+                   outline: none;
+                   @include flex;
+                   transition: $transition;
+                   color: #172f55;
+                   &:hover{
+                       transition: $transition;
+                       background: $site-color!important;
+                       color: #fff; 
+                   }
+                   span{
+                       font-size:2.1em; 
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       width: 100%;height: 100%; 
+                       border-radius: 50%;
+                       // border: 1px solid; 
+                   }
+                }
+                .owl-prev{
+                   @extend .owl-next;
+                   left: -42px!important;
+                }
+            }
+        }
+       } 
 }
 
 // ----Car-color-------Page-end--here---//

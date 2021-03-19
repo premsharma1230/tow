@@ -26,4 +26,9 @@ a {
   z-index: 99;
   width: 100%;
 }
+
+.active-star {
+  color: yellow !important;
+  cursor: pointer;
+}
 /*# sourceMappingURL=mixin.css.map */

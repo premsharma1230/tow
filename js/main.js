@@ -38,10 +38,15 @@ $(document).ready(function(){
   
 //-----------heart------//
 
-  $(".Fill-heart .fa-heart").click(function( ){ 
-       $(this).toggleClass("active-heart");
+  $(".Rcmn .fa-star").click(function( ){ 
+       $(this).toggleClass("active-star"); 
   })
- 
+//   $(".Rcmn ").click(function( ){  
+//        $(".active-star").css("color","yellow"); 
+// })
+  $(".Fill-heart .fa-heart").click(function( ){ 
+    $(this).toggleClass("active-heart");
+})
 
 // ---Collapse-1---
 $(".collap-head1").click(function(){
