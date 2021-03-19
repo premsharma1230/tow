@@ -72,6 +72,16 @@ a {
   cursor: pointer;
 }
 
+hr.rv-hr {
+  width: 95%;
+  margin: .5rem auto 0;
+  background: #cfcfcf !important;
+  /* padding: .5rem 0 0; */
+  color: #cfcfcf;
+  font-weight: normal;
+  height: 1px;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -2295,6 +2305,86 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 
 .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev {
   left: -42px !important;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp {
+  padding: 2rem 0 1rem;
+  width: 100%;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address {
+  width: 48%;
+  padding: .7rem 1rem;
+  border: 1px solid #99999978;
+  border-radius: 5px;
+  margin: .6rem .3rem;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address p a {
+  font-size: 1em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  word-spacing: .5px;
+  color: #172f55;
+  padding: .5rem .3rem;
+  display: block;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address p a i {
+  font-size: 15px;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address .Get-Call_btn {
+  background: #172f55;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1em;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  padding: .8rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2rem 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address .Get-Call_btn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .77;
+}
+
+.Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+  font-size: 1.2em;
+  padding: 0 0 .5rem;
 }
 
 @media only screen and (max-width: 1200px) {

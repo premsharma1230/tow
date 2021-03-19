@@ -1645,6 +1645,65 @@ width: 100%;
             }
         }
        } 
+
+    //--Deears---section-----//
+  .Dealers-Address_wrp{
+      padding: 2rem 0 1rem;
+      width: 100%;
+      .Dealers-Content-wrp{
+          width: 100%;
+          @include flex;
+          justify-content: $between;
+          address{
+              width: 48%;
+              padding: .7rem 1rem;
+              border: 1px solid #99999978;
+              border-radius: 5px;
+              margin: .6rem .3rem ;
+              p{
+                  a{
+                      font-size: 1em;
+                      text-transform: $cap;
+                      line-height: 1.5;
+                      letter-spacing: .5px;
+                      word-spacing: .5px;
+                      color: #172f55;
+                      padding: .5rem .3rem;
+                      display: block;
+                      i{
+                          font-size:15px;
+                      }
+                  }
+              }
+              .Get-Call_btn{
+                  background: #172f55;
+                  color: #fff;
+                  text-transform: $cap;
+                  font-size: 1em;
+                  word-spacing: 1px;
+                  letter-spacing: .5px;
+                  padding: .8rem 1rem;
+                  width: 100%;
+                  border-radius: 5px;
+                  display: inline-block;
+                  margin:2rem 0 0;
+                  transition: $transition;
+                  text-align: center;
+                  &:hover{
+                      transition: $transition;
+                      opacity: .77;
+                  }
+              }
+              h2{
+                  @include h2;
+                  font-size: 1.2em;
+                  padding: 0 0 .5rem;
+              }
+          }
+      }
+  }
+
+    ///End---here----dealers--
 }
 
 // ----Car-color-------Page-end--here---//

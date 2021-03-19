@@ -97,3 +97,13 @@ $transition:all .3s ease-in-out;
     color: yellow!important;
     cursor: pointer;
 }
+
+hr.rv-hr{
+    width: 95%;
+    margin: .5rem auto 0;
+    background: #cfcfcf!important;
+    /* padding: .5rem 0 0; */
+    color: #cfcfcf;
+    font-weight: normal;
+    height: 1px;
+}
