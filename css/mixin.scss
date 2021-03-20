@@ -4,6 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+ 
 
 @mixin container {
     width: 90%;
@@ -94,7 +95,7 @@ $transition:all .3s ease-in-out;
     padding: 1rem 0;
 }
 .active-star{
-    color: yellow!important;
+    color:#ffb900!important;
     cursor: pointer;
 }
 

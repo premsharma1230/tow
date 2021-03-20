@@ -28,7 +28,7 @@ a {
 }
 
 .active-star {
-  color: yellow !important;
+  color: #ffb900 !important;
   cursor: pointer;
 }
 

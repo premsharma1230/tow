@@ -30,15 +30,27 @@ $(document).ready(function(){
           $(this).css("transition","all .4s ease-in-out");      
       }
     });
+
+        // add & Remove class
+        $(".Spec-btn-cmn").click(function () {
+          if(!$(this).hasClass('Spec-active'))
+          {    
+              $(".Spec-btn-cmn.Spec-active").removeClass("Spec-active");
+               $(".Spec-btn-cmn.Spec-active").css("transition","all .4s ease-in-out");
+              $(this).addClass("Spec-active");  
+              $(this).css("transition","all .4s ease-in-out");      
+          }
+        });
+
 //   $(".checkbox").click(function(){
 //        $(".b1").fadeToggle("");
 //   })
- 
+// 
  
   
 //-----------heart------//
 
-  $(".Rcmn .fa-star").click(function( ){ 
+  $(".Rcmn .fa-star,.review .fa-star").click(function( ){ 
        $(this).toggleClass("active-star"); 
   })
 //   $(".Rcmn ").click(function( ){  
@@ -289,7 +301,22 @@ function openFeature(ListName) {
     document.getElementById(ListName).style.display = "block";  
   }
 
+
   ///forme---endd
+
+///forme---endd
+  //--popular-bike-----
+
+  function openSpecs(ListName) {
+    var i;
+    var x = document.getElementsByClassName("Sf-Right");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    document.getElementById(ListName).style.display = "block";  
+  }
+
+
 
 //--bottom--to--top--- and------stickyyy---on----header---//
 var navbar = document.getElementById("navbar"); 

@@ -1500,6 +1500,7 @@ width: 100%;
                         margin: 0 0 .5rem;
                         i{
                             cursor: pointer;
+                            padding-bottom: 4px!important;
                             color: #fff;
                             font-size: 12px;
                             padding: 0 .2rem;
@@ -1704,6 +1705,398 @@ width: 100%;
   }
 
     ///End---here----dealers--
+
+    // ---over-view---//
+ .Feature1,.Feature3,.Feature2{
+     .overview-wrapper{
+         width:100%;
+         margin:0 auto;
+         border-bottom: 1px solid #dedcdc;
+         .overview-content{
+             width:100%;
+             .Overview-child-wrp{  
+                 @include flex; 
+                 justify-content:$between;
+                 .ovr-left{ 
+                     position: relative; 
+                     figure{
+                         width: 100%;
+                         height: 300px;
+                         border:1px solid #dedcdc;
+                         border-radius: 5px;
+                         text-align: center;
+                         overflow: hidden;
+                     }
+                      .heart-wrp{
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 21;
+                        .Fill-heart{  
+                            .fa-heart{
+                                color: #c2c2c2;
+                                cursor: pointer;
+                            }
+                            .active-heart{
+                                color: red;
+                                cursor: pointer;
+                            } 
+                        }
+                     }
+                 }
+                 .ovr-right{
+                    border-bottom: 1px solid #dedcdc;
+                    padding: 0 0 1rem;
+                }
+                 .ovr-cmn{
+                     width: 48%;
+                     overflow: hidden;
+                    figure{  
+                        img{
+                            transition:$transition;
+                            max-width: 100%;
+                            object-fit: cover; 
+                            height: 100%;
+                            &:hover{
+                            transition:$transition;
+                            overflow: hidden; 
+                            transform: scale(1.1);
+                           }
+                       }
+                    }
+                    h2{
+                        @include h2;
+                    }
+                    .review{
+                        @include flex;
+                        justify-content: flex-start;
+                        margin:.3rem 0 .6rem;
+                        span{
+                            padding: .2rem .4rem;
+                            border-radius: 5px;
+                            background: #172f55;
+                            color: #fff;
+                            display: inline-block;
+                            margin: 0 .5rem 0rem 0; 
+                            i{
+                                padding-bottom: 4px!important;
+                                cursor: pointer;
+                                color: #fff;
+                                font-size: 12px;
+                                padding: 0 .2rem;
+                                vertical-align: middle;
+                            }
+                        }
+                        strong{
+                            color: $site-color;
+                            font-size: 1em;
+                            padding-left: .5rem; 
+                        }
+                    }
+                    h3{
+                        font-size: 1.5em;
+                        text-transform: $cap;
+                        line-height: 1.5;
+                        word-spacing: 1px;
+                        color:#000!important;
+                    }
+                    p{
+                        font-size:1em;
+                        text-transform: $cap;
+                        line-height: 1.5;
+                        letter-spacing: .5px;
+                        word-spacing: .5px;
+                        padding:.5rem 0;
+                        color:#172f55;
+                    }
+                 }
+             }
+             .Key-Spec-wrp{
+                 padding: 1rem 0;
+                 >h2{
+                  @include h2; 
+                 }
+                 .view-btn{
+                        width: 70%; 
+                        text-align: center;
+                        padding: 1.5rem 0 0;
+                     a{
+                        @include h2;
+                        font-weight: bold;
+                        transition:$transition;
+                        &:hover{
+                        transition:$transition;
+                        color:#000;
+                        }
+                     }
+                 }
+                 .key-content{
+                    @include flex;width:100%;
+                    justify-content: flex-start;
+                    padding: 0 1rem 0 0; 
+                    .KeyL1{
+                        padding-right: 2.5rem;
+                    }
+                    .key-cmn{
+                        width: 42%; 
+                      .Key-unorder{
+                           display: block;
+                           .key-cnt{
+                               width: 100%;
+                               padding: .8rem 0;
+                               @include flex;
+                               justify-content: $between;
+                               p{
+                                   font-size: 1em;
+                                   text-transform: $cap;
+                                   color: $site-color;
+                                   word-spacing: 1px;
+                                   letter-spacing: .5px;
+                                   line-height: 1.5;
+                                   display:flex;
+                                   align-items: center;
+                                   i{
+                                       font-weight: bold;
+                                       font-size: 15px;
+                                       color: $site-color;
+                                       padding-right:.7rem;
+                                   }
+                               }
+                           }
+                      }
+                    }
+                }
+             }
+         }
+     }
+ }
+    // --over-view---end---here-
+    // ---specs----
+.Feature3{
+    .Specs-wrapper{
+        .specs-btn{
+            @include  flex;
+            justify-content: $between;
+            // border-top: 1px solid #999;
+            h2{
+                @include h2;
+            }
+            form{
+                select{
+                    padding: .8rem .5rem;
+                    border-radius: 5px;
+                    transition: $transition;
+                    cursor: pointer;
+                    border: 1px solid #999;
+                    font-size: 1em;
+                    text-transform:$cap;
+                    letter-spacing:.5px;
+                    word-spacing: 1px;
+                    color: #172f55;
+                    font-weight:bold;
+                    option{
+                        padding: .8rem .5rem;
+                    }
+                    &:hover{
+                        transition: $transition;
+                        border-color: #000; 
+                        transform: scale(1.009);
+                    }
+                }
+            }
+        }
+        .Specs-Specification{
+            .Sf-child-Wrp{
+                @include flex;
+                justify-content: $between;
+                align-items: inherit!important;
+                padding: 2rem 0 0;
+                margin: 1rem 0 0;
+                border-top: 1px solid #dedcdc;
+                height: 500px;
+                overflow-y: scroll;
+                &::-webkit-scrollbar{
+                    width:10px;
+                    height: 100%;
+                }
+                &::-webkit-scrollbar-thumb{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 5px;
+                    background:#172f55;
+                    transition: $transition;
+                    &:hover{
+                    transition: $transition;
+                    background:#172f55da;
+                    }
+                }
+                &::-webkit-scrollbar-track{
+                    background:rgb(235, 235, 235);
+                }
+                .Sf-Left{
+                    width: 40%;
+                }
+                .Sf-Right{
+                    width: 58%;
+                    .sf-p1{
+                        padding: .8rem .5rem;
+                        line-height: 1.5;
+                        letter-spacing:.5px;
+                        word-spacing: 1px;
+                        text-transform: $cap;
+                        font-size: 1em;
+                        @include flex;
+                        justify-content: $between;
+                        color: $site-color;
+                        width:100%; 
+                        span,strong{
+                            width:48%;
+                            display: inline-block;
+                        }
+                        strong{
+                            text-align:left;
+                        }
+                    }
+                }
+                .Sf-cmn01{
+                    .Specs-unorder{
+                        li{
+                            width: 100% !important;
+                            margin: 0 !important;
+                            border-bottom: 1px solid #99999952 !important;
+                            border: none;
+                            border-radius: inherit;
+                            padding: .8rem 0 .8rem 1rem;
+                            background: #eee;
+                            text-transform: $cap;
+                            font-size: 1em;
+                            color: $site-color;
+                            cursor: pointer;
+                            word-spacing: 1px;
+                            letter-spacing: .5px;
+                            transition: $transition;
+                            &:hover{
+                                transition: $transition;
+                                transform: translateX(5px);
+                            }
+                        }
+                        .Spec-active{
+                            background: $site-color;
+                            color:#fff;
+                        }
+                    }
+                .sf-heading{
+                    h3{
+                        @include h2;
+                        font-size: 1.3em;
+                        padding: .5rem 0;
+                        position: relative;
+                        z-index: 1;
+                        &::after{
+                            content:'';
+                            width: 63%;
+                            right: 0;
+                            top: 23px;;
+                            height: 1px;
+                            background: #999;
+                            position: absolute;
+                            transition: $transition;
+                            z-index: -1; 
+                            display: none;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+} 
+// ----specs--end----here--
+    .Feature2 {
+        .Varient-Wrapper{
+            .Varient-child-wrp{
+                align-items: inherit!important;
+                .Vr-Left{
+                    .empty{
+                        width: 100%;
+                        height: 300px;
+                        margin: 2rem 0;
+                        background: #999;
+                    }
+                }
+                .Vr-right{
+                    width: 49%!important;
+                    h2{
+                        padding: 0 0 1rem!important;
+                    }
+                    h3{
+                        font-size: 1.3em!important;
+                        text-transform: $cap; 
+                        padding-bottom: .4rem;
+                        border-bottom: 2px solid #000;
+                        margin-bottom: .3rem;
+                        color: #000;
+                        display: inline-block;
+                    }
+                    .Alt-price-wrp{
+                        width: 100%;
+                        .Alt-cmn{
+                            width:100%;
+                            @include flex;
+                            justify-content: $between;
+                            padding-bottom: .5rem;
+                            margin-bottom: .5rem;
+                            border-bottom: 1px solid #dedcdc;
+                            .a2{
+                                text-align: right;
+                            }
+                            li{
+                                width: 50%!important;
+                                border: none;
+                                padding: .5rem 0!important;
+                                // border-bottom: 1px solid #999;
+                                border-radius: inherit;
+                                margin: 0!important;
+                                h4{
+                                    @include h2;
+                                    color: #000;font-size: 1.2em;
+                                    padding: .0rem 0!important;
+                                }
+                                p{
+                                    font-size:15px;
+                                    text-transform: $cap;
+                                    word-spacing: 1px;
+                                    letter-spacing: .5px;
+                                    line-height: 1.5;
+                                    padding: .5rem 0;
+                                    color:#172f55;
+                                    b{
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .Varient-btn{
+                        a{
+                            font-size: 1.3em;
+                            text-transform: capitalize;
+                            line-height: 1.5;
+                            word-spacing: 1px;
+                            color: #172f55;
+                            padding: .5rem 0;
+                            font-weight: bold; 
+                            transition: $transition;
+                            &:hover{
+                            transition: $transition;
+                            opacity: .77;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // ----Car-color-------Page-end--here---//

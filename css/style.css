@@ -68,7 +68,7 @@ a {
 }
 
 .active-star {
-  color: yellow !important;
+  color: #ffb900 !important;
   cursor: pointer;
 }
 
@@ -2099,6 +2099,7 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 
 .Car_Color_Wrapper .Review-Wrapper .Review-Content-wrp .Rcmn span i {
   cursor: pointer;
+  padding-bottom: 4px !important;
   color: #fff;
   font-size: 12px;
   padding: 0 .2rem;
@@ -2385,6 +2386,581 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
   padding: 1rem 0;
   font-size: 1.2em;
   padding: 0 0 .5rem;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper, .Car_Color_Wrapper .Feature3 .overview-wrapper, .Car_Color_Wrapper .Feature2 .overview-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #dedcdc;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content {
+  width: 100%;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left {
+  position: relative;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left figure, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left figure, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left figure {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #dedcdc;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 21;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .fa-heart, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .fa-heart, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .fa-heart {
+  color: #c2c2c2;
+  cursor: pointer;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .active-heart, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .active-heart, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-left .heart-wrp .Fill-heart .active-heart {
+  color: red;
+  cursor: pointer;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right {
+  border-bottom: 1px solid #dedcdc;
+  padding: 0 0 1rem;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn {
+  width: 48%;
+  overflow: hidden;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img:hover, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img:hover, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn figure img:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: .3rem 0 .6rem;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span {
+  padding: .2rem .4rem;
+  border-radius: 5px;
+  background: #172f55;
+  color: #fff;
+  display: inline-block;
+  margin: 0 .5rem 0rem 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span i, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span i, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review span i {
+  padding-bottom: 4px !important;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 .2rem;
+  vertical-align: middle;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong {
+  color: #172f55;
+  font-size: 1em;
+  padding-left: .5rem;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h3, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h3, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #000 !important;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn p, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn p, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn p {
+  font-size: 1em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  word-spacing: .5px;
+  padding: .5rem 0;
+  color: #172f55;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp {
+  padding: 1rem 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp > h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp > h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp > h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn {
+  width: 70%;
+  text-align: center;
+  padding: 1.5rem 0 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a:hover, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a:hover, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .view-btn a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 1rem 0 0;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1 {
+  padding-right: 2.5rem;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn {
+  width: 42%;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder {
+  display: block;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt {
+  width: 100%;
+  padding: .8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p {
+  font-size: 1em;
+  text-transform: capitalize;
+  color: #172f55;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p i, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p i, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .key-cmn .Key-unorder .key-cnt p i {
+  font-weight: bold;
+  font-size: 15px;
+  color: #172f55;
+  padding-right: .7rem;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .specs-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .specs-btn h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .specs-btn form select {
+  padding: .8rem .5rem;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #999;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  color: #172f55;
+  font-weight: bold;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .specs-btn form select option {
+  padding: .8rem .5rem;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .specs-btn form select:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-color: #000;
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: inherit !important;
+      -ms-flex-align: inherit !important;
+          align-items: inherit !important;
+  padding: 2rem 0 0;
+  margin: 1rem 0 0;
+  border-top: 1px solid #dedcdc;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp::-webkit-scrollbar {
+  width: 10px;
+  height: 100%;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp::-webkit-scrollbar-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #172f55;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp::-webkit-scrollbar-thumb:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #172f55da;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp::-webkit-scrollbar-track {
+  background: #ebebeb;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Left {
+  width: 40%;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Right {
+  width: 58%;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Right .sf-p1 {
+  padding: .8rem .5rem;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #172f55;
+  width: 100%;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Right .sf-p1 span, .Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Right .sf-p1 strong {
+  width: 48%;
+  display: inline-block;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-Right .sf-p1 strong {
+  text-align: left;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-cmn01 .Specs-unorder li {
+  width: 100% !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #99999952 !important;
+  border: none;
+  border-radius: inherit;
+  padding: .8rem 0 .8rem 1rem;
+  background: #eee;
+  text-transform: capitalize;
+  font-size: 1em;
+  color: #172f55;
+  cursor: pointer;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-cmn01 .Specs-unorder li:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-cmn01 .Specs-unorder .Spec-active {
+  background: #172f55;
+  color: #fff;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-cmn01 .sf-heading h3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+  font-size: 1.3em;
+  padding: .5rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.Car_Color_Wrapper .Feature3 .Specs-wrapper .Specs-Specification .Sf-child-Wrp .Sf-cmn01 .sf-heading h3::after {
+  content: '';
+  width: 63%;
+  right: 0;
+  top: 23px;
+  height: 1px;
+  background: #999;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+  display: none;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp {
+  -webkit-box-align: inherit !important;
+      -ms-flex-align: inherit !important;
+          align-items: inherit !important;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-Left .empty {
+  width: 100%;
+  height: 300px;
+  margin: 2rem 0;
+  background: #999;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right {
+  width: 49% !important;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right h2 {
+  padding: 0 0 1rem !important;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right h3 {
+  font-size: 1.3em !important;
+  text-transform: capitalize;
+  padding-bottom: .4rem;
+  border-bottom: 2px solid #000;
+  margin-bottom: .3rem;
+  color: #000;
+  display: inline-block;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp {
+  width: 100%;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #dedcdc;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn .a2 {
+  text-align: right;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn li {
+  width: 50% !important;
+  border: none;
+  padding: 0.5rem 0 !important;
+  border-radius: inherit;
+  margin: 0 !important;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn li h4 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+  color: #000;
+  font-size: 1.2em;
+  padding: 0rem 0 !important;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn li p {
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+  padding: .5rem 0;
+  color: #172f55;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Alt-price-wrp .Alt-cmn li p b {
+  font-weight: bold;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Varient-btn a {
+  font-size: 1.3em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: .5rem 0;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right .Varient-btn a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .77;
 }
 
 @media only screen and (max-width: 1200px) {
