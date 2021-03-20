@@ -1,0 +1,172 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Gotham Pro bold';
+}
+
+p, li {
+  font-family: 'Gotham Pro Regular';
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.active-star {
+  color: #ffb900 !important;
+  cursor: pointer;
+}
+
+hr.rv-hr {
+  width: 95%;
+  margin: .5rem auto 0;
+  background: #cfcfcf !important;
+  /* padding: .5rem 0 0; */
+  color: #cfcfcf;
+  font-weight: normal;
+  height: 1px;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left {
+  width: 95% !important;
+  margin: 0 auto;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading {
+  width: 100%;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 1rem 0 0;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder li {
+  font-size: 1.1em;
+  text-transform: capitalize;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  margin: .5rem .5rem;
+  border-radius: 5px;
+  border: 1px solid #172f55;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: .5rem 2.6rem;
+  cursor: pointer;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder .S-Active-btn {
+  background: #172f55;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp {
+  margin: 1rem 0 1.5rem;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5rem 1.5rem;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 {
+  width: 100%;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input {
+  padding: .6rem .5rem;
+  width: 100%;
+  margin: .5rem .5rem;
+  text-transform: capitalize;
+  font-size: 1em;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  color: #172f55;
+  border: 1px solid #172f55;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select option, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input option {
+  padding: .5rem .5rem;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select:hover, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input:hover {
+  border-color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select:focus, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input:focus {
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.048);
+          box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.048);
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Frm-next-btn {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Frm-next-btn a input {
+  cursor: pointer;
+  padding: .799rem 4.5rem;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  background: #172f55;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #172f55;
+}
+
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Frm-next-btn a input:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=sell.css.map */

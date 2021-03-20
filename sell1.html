@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
 </head>
 <body>
-   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Car_Color_Wrapper">
+   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Car_Color_Wrapper Sell-Wrapper">
        <header class="navbar" id="navbar">
              <div class="container">
                  <nav>
@@ -73,7 +73,7 @@
        </header>
 
  <!-- car--List -->
-  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp  Car-Clr-Wrp">
+  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp  Car-Clr-Wrp Sell-Sub-wrp">
       <div class="container">
           <div class="breadcmb">
               <ul>
@@ -84,12 +84,76 @@
           <ul class="Top-heading">
             <li>Sell your car and bike Where the Buyers are !</li> 
          </ul>
-        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content"> 
+        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Sell-Content-Wrp"> 
             <div class="Car-list-Content">
-               <div class="CL-child car-left Bike-left Used-bike-left Car-Clr-Left">
-                 
-     
+               <div class="CL-child car-left Bike-left Used-bike-left Car-Clr-Left Sell-Left">
+               <div class="Sell-Sub-left">
+                <div class="Sell-heading">
+                     <ul class="Sell-unorder">
+                         <li class="Sell-L01 Sell-cmn1 S-Active-btn" onclick="openSell('Sell1')">Car details</li>
+                         <li class="Sell-L02 Sell-cmn1" onclick="openSell('Sell2')">Bike details</li>
+                     </ul>
+                 </div>
+                 <!-- car-detail -->
+                 <div class="Sell-Form-wrp S-Form" id="Sell1">
+                     <form action="#">
+                       <div class="Form-chil-wrp">
+                         <div class="S01 S-cmn1">
+                             <select name="SellSelect1" id="SellSelect1">
+                                 <option value="one1">Year</option>
+                             </select> 
+                         </div>
+                         <div class="S02 S-cmn1"> 
+                            <select name="SellSelect2" id="SellSelect2">
+                               <option value="one1">Make</option>
+                           </select> 
+                        </div>
+                        <div class="S03 S-cmn1">  
+                           <select name="SellSelect3" id="SellSelect3">
+                               <option value="one1">Model</option>
+                           </select>
+                        </div>
+                        <div class="S04 S-cmn1">  
+                            <select name="SellSelect4" id="SellSelect4">
+                                <option value="one1">Varient</option>
+                            </select>
+                         </div>
+                         <div class="S05 S-cmn1">  
+                            <label for="#">
+                                <input type="text" name="inpt1" class="City1" placeholder="Your City" required>
+                            </label>
+                         </div>
+                         <div class="S06 S-cmn1">  
+                            <label for="#">
+                                <input type="text" name="inpt2" class="Kms" placeholder="Kms Done" required>
+                            </label>
+                         </div>
+                         <div class="S07 S-cmn1">  
+                            <select name="SellSelect5" id="SellSelect6">
+                                <option value="one1">Color</option>
+                            </select>
+                         </div>
+                         <div class="S08 S-cmn1">  
+                            <select name="SellSelect8" id="SellSelect8">
+                                <option value="one1">Ownership</option>
+                            </select>
+                         </div>
+                        </div>
+                         <div class="Frm-next-btn">
+                            <a href="javascript:void(0)"class="hvr-wobble-top">
+                                <input type="submit" value="Next">
+                            </a>
+                        </div>
+                     </form>
+                 </div>
+                <!-- car-detail----end-here -->
+                   <!-- Bike-detail -->
+                   <div class="Sell-Form-wrp S-Form" id="Sell2" style="display: none;">
+                    
+                </div>
+               <!-- Bike-detail----end-here -->
                </div>
+            </div>
             </div>
         </div>
     </div>

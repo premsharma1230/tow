@@ -1,0 +1,101 @@
+@import 'mixin';
+
+.Sell-Wrapper{
+    .Sell-Sub-wrp{
+        .Sell-Content-Wrp{
+            .Sell-Left{ 
+                .Sell-Sub-left{
+                    width: 95%!important;
+                    margin: 0 auto;
+                    .Sell-heading{
+                        width :100%;
+                        .Sell-unorder{
+                            @include flex;
+                            justify-content: flex-start;
+                            margin: 1rem 0 0;
+                            li{ 
+                            font-size: 1.1em;
+                            text-transform: $cap;
+                            letter-spacing: .5px;
+                            word-spacing:1px;
+                            margin: .5rem .5rem;
+                            border-radius: 5px;
+                            border: 1px solid $site-color;
+                            transition: $transition;
+                            padding: .5rem 2.6rem;
+                            cursor: pointer;
+                            }
+                            .S-Active-btn{
+                                background: $site-color;
+                                color:#fff;
+                                transition: $transition;
+                            }
+                        }
+                    }
+                    .Sell-Form-wrp{
+                        margin: 1rem 0 1.5rem;
+                     form{
+                        .Form-chil-wrp{
+                            width: 100%;
+                            display:  grid;
+                            align-items: center;
+                            grid-template-columns: repeat(4, 1fr);
+                            grid-gap: .5rem 1.5rem;
+                            .S-cmn1{
+                                width: 100%;
+                              select,input{
+                                  padding: .6rem .5rem;
+                                  width: 100%;
+                                  margin: .5rem .5rem;
+                                  text-transform: $cap;
+                                  font-size: 1em;
+                                  letter-spacing: .5px;
+                                  word-spacing: 1px;
+                                  color: $site-color;
+                                  border: 1px solid $site-color;
+                                  transition: $transition;
+                                  border-radius: 5px;
+                                  outline: none;
+                                  option{
+                                      padding: .5rem .5rem;
+                                  }
+                                  &:hover{
+                                      border-color: #000;
+                                      transition: $transition;
+                                  }
+                                  &:focus{
+                                      transform: scale(1.009);
+                                      transition: $transition;
+                                      box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.048);
+                                  }
+                              }
+                            } 
+                          }
+                          .Frm-next-btn{
+                            width: 100%;
+                            text-align: $mid;
+                            margin: 1rem 0 0;
+                            a{
+                                input{
+                                    cursor: pointer;
+                                    padding: .799rem 4.5rem;
+                                    text-transform: $cap;
+                                    font-size: 1.1em;
+                                    background: $site-color;
+                                    transition: $transition;
+                                    border-radius: 5px;color: #fff;
+                                    border: 1px solid $site-color;
+                                    &:hover{
+                                        opacity: .77;
+                                        transition: $transition;
+                                    }
+                                }
+                            }
+                        } 
+                      }
+                    }
+                }
+            }
+        }
+    }
+}

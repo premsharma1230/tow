@@ -41,11 +41,21 @@ $(document).ready(function(){
               $(this).css("transition","all .4s ease-in-out");      
           }
         });
-
+     // add & Remove class
+     $(".Sell-cmn1").click(function () {
+      if(!$(this).hasClass('S-Active-btn'))
+      {    
+          $(".Sell-cmn1.S-Active-btn").removeClass("S-Active-btn");
+           $(".Sell-cmn1.S-Active-btn").css("transition","all .4s ease-in-out");
+          $(this).addClass("S-Active-btn");  
+          $(this).css("transition","all .4s ease-in-out");      
+      }
+    });
 //   $(".checkbox").click(function(){
 //        $(".b1").fadeToggle("");
 //   })
 // 
+
  
   
 //-----------heart------//
@@ -315,7 +325,16 @@ function openFeature(ListName) {
     }
     document.getElementById(ListName).style.display = "block";  
   }
-
+  // --selll
+  function openSell(ListName) {
+    var i;
+    var x = document.getElementsByClassName("S-Form");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    document.getElementById(ListName).style.display = "block";  
+  }
+  // selll-end
 
 
 //--bottom--to--top--- and------stickyyy---on----header---//
