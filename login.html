@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
 </head>
 <body>
-   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Car_Color_Wrapper Sell-Wrapper">
+   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Login-Wrapper">
        <header class="navbar" id="navbar">
              <div class="container">
                  <nav>
@@ -65,7 +65,7 @@
                             </li>
                             <li class="nav-item4 Nv-item-wrp"><a href="auction.html" class="hvr-underline-from-left">auction</a></li>
                             <li class="nav-item5 Nv-item-wrp"><a href="#" class="hvr-underline-from-left">blog </a></li>
-                            <li class="Login nav-item6 Nv-item-wrp"><a href="login.html" class="hvr-bounce-to-top">Login / register</a></li>                    
+                            <li class="Login nav-item6 Nv-item-wrp"><a href="#" class="hvr-bounce-to-top">Login / register</a></li>                    
                         </ul>
                     </div>
                  </nav>
@@ -73,88 +73,58 @@
        </header>
 
  <!-- car--List -->
-  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp  Car-Clr-Wrp Sell-Sub-wrp">
-      <div class="container">
-          <div class="breadcmb">
-              <ul>
-                  <li><a href="index.html">Home</a><i class="fas fa-caret-right"></i></li> 
-                  <li><a href="#" class="Usedactive">Sell</a></li>
-              </ul>
-          </div> 
-          <ul class="Top-heading">
-            <li>Sell your car and bike Where the Buyers are !</li> 
-         </ul>
-        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Sell-Content-Wrp"> 
-            <div class="Car-list-Content">
-               <div class="CL-child car-left Bike-left Used-bike-left Car-Clr-Left Sell-Left">
-               <div class="Sell-Sub-left">
-                <div class="Sell-heading">
-                     <ul class="Sell-unorder">
-                         <li class="Sell-L01 Sell-cmn1 S-Active-btn" onclick="openSell('Sell1')">Car details</li>
-                         <li class="Sell-L02 Sell-cmn1" onclick="openSell('Sell2')">Bike details</li>
-                     </ul>
-                 </div>
-                 <!-- car-detail -->
-                 <div class="Sell-Form-wrp S-Form" id="Sell1">
-                     <form action="#">
-                       <div class="Form-chil-wrp">
-                         <div class="S01 S-cmn1">
-                             <select name="SellSelect1" id="SellSelect1">
-                                 <option value="one1">Year</option>
-                             </select> 
+  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp   Login-wrp">
+      <div class="container"> 
+        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Login-Content-Wrp"> 
+            <div class="CL-child Login-Left ">
+              <figure class="Fig-wrp">
+                <img src="image/login-bg.png" alt="img">
+              </figure> 
+              <div class="Log-Trade-wrp">
+                  <div class="log-heading">
+                      <h2>Log in to Trade on Wheel</h2>
+                  </div>
+                  <div class="log-form-wrp">
+                      <form action="#">
+                          <div class="Lg1 Lg-cmn01">
+                              <input type="text" name="Email3" id="Email3"placeholder="Email / Phone Number">
+                          </div>
+                          <div class="Lg2 Lg-cmn01">
+                            <input type="password" name="password1" id="password1" placeholder="Password">
                          </div>
-                         <div class="S02 S-cmn1"> 
-                            <select name="SellSelect2" id="SellSelect2">
-                               <option value="one1">Make</option>
-                           </select> 
-                        </div>
-                        <div class="S03 S-cmn1">  
-                           <select name="SellSelect3" id="SellSelect3">
-                               <option value="one1">Model</option>
-                           </select>
-                        </div>
-                        <div class="S04 S-cmn1">  
-                            <select name="SellSelect4" id="SellSelect4">
-                                <option value="one1">Varient</option>
-                            </select>
-                         </div>
-                         <div class="S05 S-cmn1">  
-                            <label for="#">
-                                <input type="text" name="inpt1" class="City1" placeholder="Your City" required>
+                         <div class="Lg3 Lg-cmn01">
+                            <label for="#" class="Label1">
+                                <input type="radio" name="radio" id="radio">
+                                <b> Remember me </b>
                             </label>
                          </div>
-                         <div class="S06 S-cmn1">  
-                            <label for="#">
-                                <input type="text" name="inpt2" class="Kms" placeholder="Kms Done" required>
+                         <div class="Lg4 Lg-cmn01">
+                            <label for="#" class="Label2">
+                                <a href="#">
+                                    <input type="submit" id="Log-in" value="Log in">
+                                </a> 
                             </label>
+                            <label for="#" class="Label3">
+                              <a href="#">
+                                 <input type="submit" id="Sign" value="Sign Up">
+                              </a>  
+                           </label>
                          </div>
-                         <div class="S07 S-cmn1">  
-                            <select name="SellSelect5" id="SellSelect6">
-                                <option value="one1">Color</option>
-                            </select>
+                         <div class="Lg5 Lg-cmn01">
+                             <a href="#" class="Pswrd">
+                                 Forgot password
+                             </a>
+                             <h3>Or Login with</h3>
+                             <label for="#" class="Label5">
+                             <a href="#" class="S-Google">
+                                <input type="submit" id="Sign-Google" value="Sign up with Google">
+                             </a>    
+                             </label>
                          </div>
-                         <div class="S08 S-cmn1">  
-                            <select name="SellSelect8" id="SellSelect8">
-                                <option value="one1">Ownership</option>
-                            </select>
-                         </div>
-                        </div>
-                         <div class="Frm-next-btn">
-                            <a href="javascript:void(0)"class="hvr-wobble-top">
-                                <input type="submit" value="Next">
-                            </a>
-                        </div>
-                     </form>
-                 </div>
-                <!-- car-detail----end-here -->
-                   <!-- Bike-detail -->
-                   <div class="Sell-Form-wrp S-Form" id="Sell2" style="display: none;">
-                    
-                </div>
-               <!-- Bike-detail----end-here -->
-               </div>
-            </div>
-            </div>
+                      </form>
+                  </div>
+              </div>
+            </div> 
         </div>
     </div>
   </div>

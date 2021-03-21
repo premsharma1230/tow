@@ -1,0 +1,62 @@
+@import 'mixin';
+
+.Login-Wrapper{
+    width:100%;
+    .Login-wrp{
+        width: 100%;
+        .Login-Content-Wrp{
+            .Login-Left{
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                // height: 700px; 
+                // background: url(../image/login-bg.png)no-repeat;
+                // background-size: cover; 
+                &::before{
+                    content: '';
+                    width: 100%;
+                    height: 99%;
+                    background:#172f556b;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    // display: none;
+                }
+                .Fig-wrp{
+                    width: 100%;
+                    img{
+                        max-width: 100%;
+                        border-radius: 5px;
+                    }
+                }
+                // ---Form-----//
+                .Log-Trade-wrp{
+                    width: 50%;
+                    margin: 0 auto 0 0; 
+                    position: absolute;
+                    top:0%;
+                    right:0;
+                    background: #fff;
+                    padding: 1rem 1rem;
+                    .log-heading{
+                        h2{
+                            @include h2;
+                            font-size: 1.3em;
+                        }
+                    }
+                    .log-form-wrp{
+                        form{
+                            width: 100%;
+                            .Lg-cmn01{
+                                input{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+                // ---form--end--here---//
+            }
+        }
+    }
+}

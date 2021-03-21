@@ -137,6 +137,31 @@ $(".Expand").click(function(){
 })
 // ---Expand---img-----end---here
 
+// ---Collapse---img----
+$(".Close-wrp").click(function(){ 
+  $(".item-cmn01").css("display","none");
+})
+
+// ---Slide--Toggles---//
+$(".headingTab1").click(function(){ 
+  $(".Collaps-Cnt1").slideToggle("");
+  $(".Collaps-Cnt2").slideUp("");
+  $(".Collaps-Cnt3").slideUp("");
+})
+$(".headingTab2").click(function(){ 
+  $(".Collaps-Cnt2").slideToggle("");
+  $(".Collaps-Cnt1").slideUp("");
+  $(".Collaps-Cnt3").slideUp("");
+})
+$(".headingTab3").click(function(){ 
+  $(".Collaps-Cnt3").slideToggle("");
+  $(".Collaps-Cnt1").slideUp("");
+  $(".Collaps-Cnt2").slideUp("");
+})
+// ---Collapse---img-----end---here
+
+
+
       // ------slider1--
   $('.slider1').owlCarousel({
     loop: false,

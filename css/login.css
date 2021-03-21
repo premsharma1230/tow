@@ -1,0 +1,105 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Gotham Pro bold';
+}
+
+p, li {
+  font-family: 'Gotham Pro Regular';
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.active-star {
+  color: #ffb900 !important;
+  cursor: pointer;
+}
+
+hr.rv-hr {
+  width: 95%;
+  margin: .5rem auto 0;
+  background: #cfcfcf !important;
+  /* padding: .5rem 0 0; */
+  color: #cfcfcf;
+  font-weight: normal;
+  height: 1px;
+}
+
+.Login-Wrapper {
+  width: 100%;
+}
+
+.Login-Wrapper .Login-wrp {
+  width: 100%;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left::before {
+  content: '';
+  width: 100%;
+  height: 99%;
+  background: #172f556b;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp {
+  width: 100%;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
+  width: 50%;
+  margin: 0 auto 0 0;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  background: #fff;
+  padding: 1rem 1rem;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-heading h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  line-height: 1.5;
+  word-spacing: 1px;
+  color: #172f55;
+  padding: 1rem 0;
+  font-size: 1.3em;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form {
+  width: 100%;
+}
+
+.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg-cmn01 input {
+  width: 100%;
+}
+/*# sourceMappingURL=login.css.map */
