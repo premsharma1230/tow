@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
 </head>
 <body>
-   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Car_Color_Wrapper Sell-Wrapper">
+   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Car_Color_Wrapper Sell-Wrapper wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
        <header class="navbar" id="navbar">
              <div class="container">
                  <nav>
@@ -52,16 +52,8 @@
                                     </ul>
                                </div>
                             </li>
-                            <li class="nav-item3 Nv-item-wrp"><a href="#" class="hvr-underline-from-left">sell <i class="fas fa-angle-down"></i></a>
-                                <div class="drop-down">
-                                    <ul class="drop-down-items">
-                                       <li class="drop-down-item"><a href="sell1.html">Sell-1</a></li>
-                                       <li class="drop-down-item"><a href="sell2.html">Sell-2</a></li>
-                                       <li class="drop-down-item"><a href="sell3.html">Sell-3</a></li>
-                                       <li class="drop-down-item"><a href="sell4.html">Sell-4</a></li>
-                                       <li class="drop-down-item"><a href="sell5.html">Sell-5</a></li>
-                                    </ul>
-                               </div>
+                            <li class="nav-item3 Nv-item-wrp"><a href="sell1.html" class="hvr-underline-from-left">sell <i class="fas fa-angle-down"></i></a>
+
                             </li>
                             <li class="nav-item4 Nv-item-wrp"><a href="auction.html" class="hvr-underline-from-left">auction</a></li>
                             <li class="nav-item5 Nv-item-wrp"><a href="#" class="hvr-underline-from-left">blog </a></li>
@@ -73,7 +65,7 @@
        </header>
 
  <!-- car--List -->
-  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp  Car-Clr-Wrp Sell-Sub-wrp">
+  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp  Car-Clr-Wrp Sell-Sub-wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
       <div class="container">
           <div class="breadcmb">
               <ul>
@@ -84,7 +76,7 @@
           <ul class="Top-heading">
             <li>Sell your car and bike Where the Buyers are !</li> 
          </ul>
-        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Sell-Content-Wrp"> 
+        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Sell-Content-Wrp wow fadeIn" style="visibility: visible; animation-name: fadeIn;"> 
             <div class="Car-list-Content">
                <div class="CL-child car-left Bike-left Used-bike-left Car-Clr-Left Sell-Left">
                <div class="Sell-Sub-left">
@@ -96,7 +88,7 @@
                  </div>
                  <!-- car-detail -->
                  <div class="Sell-Form-wrp S-Form" id="Sell1">
-                     <form action="#">
+                     <form action="sell2.html" method="#">
                        <div class="Form-chil-wrp">
                          <div class="S01 S-cmn1">
                              <select name="SellSelect1" id="SellSelect1">
@@ -140,7 +132,7 @@
                          </div>
                         </div>
                          <div class="Frm-next-btn">
-                            <a href="javascript:void(0)"class="hvr-wobble-top">
+                            <a href="sell2.html"class="hvr-wobble-top">
                                 <input type="submit" value="Next">
                             </a>
                         </div>
@@ -167,7 +159,7 @@
 </div> -->
 <!-- button-----end -->
    
- <footer>
+ <footer class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
     <div class="container">
         <div class="footer-content">
             <div class="ft1 ft-cmn">
@@ -236,11 +228,11 @@
     <script src="js/vanilla-tilt.babel.min.js"></script> 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <!-- <script>
+    <script>
         new WOW().init();
     </script>
     <script>
         AOS.init();
-      </script> -->
+      </script>
 </body>
 </html>

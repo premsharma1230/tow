@@ -51,6 +51,17 @@ $(document).ready(function(){
           $(this).css("transition","all .4s ease-in-out");      
       }
     });
+
+       // add & Remove class----Login---Active
+       $(".Lbl-cmn").click(function () {
+        if(!$(this).hasClass('Log-active'))
+        {    
+            $(".Lbl-cmn.Log-active").removeClass("Log-active");
+             $(".Lbl-cmn.Log-active").css("transition","all .4s ease-in-out");
+            $(this).addClass("Log-active");  
+            $(this).css("transition","all .4s ease-in-out");      
+        }
+      });
 //   $(".checkbox").click(function(){
 //        $(".b1").fadeToggle("");
 //   })

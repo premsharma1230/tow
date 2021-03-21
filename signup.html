@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
 </head>
 <body>
-   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Login-Wrapper wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+   <main class="CarList-Wrapper BikeList-Wrapper Used_bike_Wrapper Login-Wrapper Signup_Wrapper">
        <header class="navbar" id="navbar">
              <div class="container">
                  <nav>
@@ -70,54 +70,45 @@
        </header>
 
  <!-- car--List -->
-  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp   Login-wrp">
+  <div class="Car-List-wrapper Features-Wrapper BikeList-wrp Used-bike-wrp   Login-wrp Signup-Wrp">
       <div class="container"> 
-        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Login-Content-Wrp"> 
-            <div class="CL-child Login-Left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="Feaures-content Car-list-child-wrp BikeList-chil-wrp Used-bike Car-Clr-content Login-Content-Wrp Signup-Content-Wrp"> 
+            <div class="CL-child Login-Left Signup-left">
               <figure class="Fig-wrp">
                 <img src="image/login-bg.png" alt="img">
               </figure> 
               <div class="Log-Trade-wrp">
                   <div class="log-heading">
-                      <h2>Log in to Trade on Wheel</h2>
+                      <h2>Sign up to Trade on Wheel</h2>
                   </div>
                   <div class="log-form-wrp">
-                      <form action="signup.html">
+                      <form action="#">
                           <div class="Lg1 Lg-cmn01">
-                              <input type="text" name="Email3" id="Email3"placeholder="Email / Phone Number">
+                              <input type="text" name="nam01" id="name01"placeholder="Name">
                           </div>
                           <div class="Lg2 Lg-cmn01">
-                            <input type="password" name="password1" id="password1" placeholder="Password">
+                            <input type="number" name="PhoneNumber" id="Phone-Number" placeholder="Phone Number">
+                         </div>
+                         <div class="Lg2 Lg-cmn01">
+                            <input type="email" name="Semail" id="Semail1" placeholder="Email">
+                         </div>
+                         <div class="Lg2 Lg-cmn01">
+                            <input type="date" name="Sdate" id="Sdate" placeholder="DOB">
                          </div>
                          <div class="Lg3 Lg-cmn01">
-                            <label for="#" class="Label1">
-                                <input type="checkbox" name="checkbox2" id="checkbox2">
-                                <b> Remember me </b>
-                            </label>
+                            <select name="Select01" id="S-Select">
+                                <option value="S-one">  Occupation   </option>
+                                <option value="S-two">  Lorem, ipsum.   </option>
+                                <option value="S-thee">  Lorem, ipsum dolor.  </option>
+                            </select>
                          </div>
                          <div class="Lg4 Lg-cmn01">
                             <label for="#" class="Label2 Lbl-cmn Log-active">
                                 <a href="#">
-                                    <input type="submit" id="Log-in" value="Log in">
+                                    <input type="submit" id="Log-in" value="Sign Up">
                                 </a> 
-                            </label>
-                            <label for="#" class="Label3 Lbl-cmn">
-                              <a href="signup.html">
-                                 <input type="submit" id="Sign" value="Sign Up">
-                              </a>  
-                           </label>
-                         </div>
-                         <div class="Lg5 Lg-cmn01">
-                             <a href="#" class="Pswrd">
-                                 Forgot password
-                             </a>
-                             <h3>Or Login with</h3>
-                             <label for="#" class="Label5">
-                             <a href="#" class="S-Google hvr-wobble-top">
-                                <input type="submit" id="Sign-Google" value="Sign up with Google">
-                             </a>    
-                             </label>
-                         </div>
+                            </label> 
+                         </div> 
                       </form>
                   </div>
               </div>
