@@ -44,11 +44,11 @@
                     @keyframes loganime {
                         0%,100%{
                             transition: $transition;
-                            transform: translateY(-2px);
+                            transform: translateY(-1.5px);
                         }
                         50%{
                             transition: $transition;
-                            transform: translateY(2px); 
+                            transform: translateY(1.5px); 
                         }
                     }
                     .log-heading{
@@ -189,14 +189,45 @@
 
 
 // -----Signup---page---
-.Signup-Wrapper{
+.Signup_Wrapper{
     .Signup-Wrp{
         .Signup-Content-Wrp{
-            .Lg4{
-                label{
-                    width: 100%!important;
-                }
-            }
+            .Signup-left{
+                .Log-Trade-wrp{
+                    .log-form-wrp{
+                        form{
+                        .Lg4{
+                            label.Label2.Lbl-cmn.Log-active{
+                                width: 100%!important;
+                            }
+                        }
+                        .Lg5{
+                            width: 100%;
+                            text-align: center;
+                            a{
+                                font-size: 1.1em;
+                                line-height: 1.5;
+                                letter-spacing: .5px;
+                                word-spacing: 1px;
+                                color: steelblue; 
+                                display: inline-block;
+                                padding: .7rem 0;
+                                transition: $transition;
+                                &:hover{
+                                    transition: $transition;
+                                    color: #000;
+                                    opacity: .88;
+                                }
+                                b{
+                                    color: #000!important;
+                                    padding-right: .2rem;
+                                }
+                            }
+                        }
+                     }
+                  }
+              }
+           }
         }
     }
 }

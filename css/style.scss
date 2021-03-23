@@ -1346,6 +1346,9 @@ width: 100%;
                     position: inherit!important;
                     figure{
                         height: auto!important;
+                        .expand-close{
+                            display: none;
+                        }
                         img{
                             width: 75%;margin: 0 auto;
                             object-fit: contain;
@@ -1390,16 +1393,48 @@ width: 100%;
                         }
                     }
                     .expand-wrp{
-                        background: rgba(0, 0, 0, 0.294);
-                        position: absolute;
+                        background: rgba(0, 0, 0, 0.452);
+                        position: fixed;
                         top: 0;
                         left: 0;
                         bottom: 0;
-                        img{
-                            max-width: 100%;
-                            height: 200px;
-                            object-fit: contain;
-                        }
+                        width: 100%;
+                        height: 100vh;
+                        overflow: hidden!important;
+                        z-index: 99;
+                        @include flex;
+                        figure{
+                            width: 70%;
+                            height: 100%!important;
+                            background: #fff;
+                            margin: 0 auto;
+                            border-radius: 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            .expand-close{
+                                display: block!important;
+                                right: 20px;
+                                top:20px;
+                                color:$site-color;
+                                position: absolute;
+                                font-size: 1.5em; 
+                                text-transform: $cap;
+                                transition: $transition;
+                                cursor: pointer!important;
+                                &:hover{
+                                    cursor: pointer!important;
+                                    transition: $transition;
+                                    transform: rotate(360deg);
+                                } 
+                            }
+                            img{
+                                max-width: 100%;
+                                height: 200px;
+                                object-fit: contain;
+                            }
+                        } 
                     }
                   } 
                 }

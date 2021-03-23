@@ -1870,6 +1870,10 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
   height: auto !important;
 }
 
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn figure .expand-close {
+  display: none;
+}
+
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn figure img {
   width: 75%;
   margin: 0 auto;
@@ -1946,14 +1950,68 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
 }
 
 .Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp {
-  background: rgba(0, 0, 0, 0.294);
-  position: absolute;
+  background: rgba(0, 0, 0, 0.452);
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp img {
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp figure {
+  width: 70%;
+  height: 100% !important;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp figure .expand-close {
+  display: block !important;
+  right: 20px;
+  top: 20px;
+  color: #172f55;
+  position: absolute;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer !important;
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp figure .expand-close:hover {
+  cursor: pointer !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.Car_Color_Wrapper .Car-Clr-Wrp .Car-Clr-content .Car-Clr-Left .colour-wrp01 .F-item-cmn .expand-wrp figure img {
   max-width: 100%;
   height: 200px;
   -o-object-fit: contain;
@@ -3648,14 +3706,14 @@ hr.rv-hr {
   0%, 100% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
+    -webkit-transform: translateY(-1.5px);
+            transform: translateY(-1.5px);
   }
   50% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(2px);
-            transform: translateY(2px);
+    -webkit-transform: translateY(1.5px);
+            transform: translateY(1.5px);
   }
 }
 
@@ -3663,14 +3721,14 @@ hr.rv-hr {
   0%, 100% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
+    -webkit-transform: translateY(-1.5px);
+            transform: translateY(-1.5px);
   }
   50% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(2px);
-            transform: translateY(2px);
+    -webkit-transform: translateY(1.5px);
+            transform: translateY(1.5px);
   }
 }
 
@@ -3854,8 +3912,37 @@ hr.rv-hr {
   background: #172f55;
 }
 
-.Signup-Wrapper .Signup-Wrp .Signup-Content-Wrp .Lg4 label {
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg4 label.Label2.Lbl-cmn.Log-active {
   width: 100% !important;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 {
+  width: 100%;
+  text-align: center;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a {
+  font-size: 1.1em;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  color: steelblue;
+  display: inline-block;
+  padding: .7rem 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+  opacity: .88;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a b {
+  color: #000 !important;
+  padding-right: .2rem;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -146,6 +146,13 @@ $(".collap-head9").click(function(){
 $(".Expand").click(function(){ 
   $(".Ft-Fig").toggleClass("expand-wrp");
 })
+$(".expand-close").click(function(){ 
+  //  $(".expand-wrp").css("display","none");
+  $(this).removeClass("expand-wrp");
+})
+$(".expand-close").click(function(){ 
+  $(this).removeClass("expand-wrp");
+})
 // ---Expand---img-----end---here
 
 // ---Collapse---img----

@@ -94,14 +94,14 @@ hr.rv-hr {
   0%, 100% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
+    -webkit-transform: translateY(-1.5px);
+            transform: translateY(-1.5px);
   }
   50% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(2px);
-            transform: translateY(2px);
+    -webkit-transform: translateY(1.5px);
+            transform: translateY(1.5px);
   }
 }
 
@@ -109,14 +109,14 @@ hr.rv-hr {
   0%, 100% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
+    -webkit-transform: translateY(-1.5px);
+            transform: translateY(-1.5px);
   }
   50% {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateY(2px);
-            transform: translateY(2px);
+    -webkit-transform: translateY(1.5px);
+            transform: translateY(1.5px);
   }
 }
 
@@ -300,7 +300,36 @@ hr.rv-hr {
   background: #172f55;
 }
 
-.Signup-Wrapper .Signup-Wrp .Signup-Content-Wrp .Lg4 label {
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg4 label.Label2.Lbl-cmn.Log-active {
   width: 100% !important;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 {
+  width: 100%;
+  text-align: center;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a {
+  font-size: 1.1em;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  color: steelblue;
+  display: inline-block;
+  padding: .7rem 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+  opacity: .88;
+}
+
+.Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a b {
+  color: #000 !important;
+  padding-right: .2rem;
 }
 /*# sourceMappingURL=login.css.map */
