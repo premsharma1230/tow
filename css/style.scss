@@ -1259,7 +1259,7 @@ width: 100%;
 
      //------
       .Auction-child-wrp{
-          .Used-action-left{
+          .Used-action-left{ 
              .auct-notify-wrp{
                  @include flex;
                  justify-content: $between;
@@ -2140,5 +2140,6 @@ width: 100%;
 
 @import 'sell';
 @import 'login';
+@import 'auctiondetail';
 @import 'media';
  

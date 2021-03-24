@@ -1,0 +1,154 @@
+@import 'mixin';
+
+.AuctionDetail-Wrapper{
+   .AuctionDetail-Wrp{
+       .AuctionDetail-Left{
+           .Aucdetail-wrp1{
+            .ovr-right{border-bottom: inherit!important;}
+               .auc-right{
+                   .Auc-detail-head{
+                       border-bottom: 1px solid #cfcfcf;
+                       @include flex;
+                       justify-content: $between;
+                       span{
+                           text-transform: $cap;
+                           font-size: 1.4em;
+                           word-spacing: 1px;
+                           letter-spacing: .5px;
+                           color: #000;
+                       }
+                   }
+                   .aucDetail-unorder{
+                      li{
+                          @include flex;
+                          justify-content: flex-start;
+                          border: none!important;
+                          width: 100%!important;  
+                          border-bottom: 1px solid #cfcfcf!important;
+                          border-radius: inherit!important;
+                         h3,h4{
+                             padding-right: 1.5rem;
+                             font-weight: 300!important;
+                             color: #777!important;
+                             font-size: 1.2em!important;
+                             i{
+                                 font-size: 15px;
+                                 color:#000;
+                                 margin-right:4px;
+                             }
+                         } 
+                     } 
+                     .auc-item4{
+                         .btn2{
+                            width: 45%;
+                            padding: .7rem .5rem;
+                            margin: .5rem 0;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            color: #fff;
+                            border: 1px solid #999;
+                            outline: none; 
+                            background: #f04031;
+                            font-size: 1.3em;
+                            text-align: center;
+                            text-transform: $cap;
+                            transition: $transition;
+                            &:hover{
+                                transition: $transition;
+                                opacity: .77;
+                            }
+                         }
+                     }
+                     .auc-item5{
+                         i{
+                             font-size: 1.9em;
+                             cursor: pointer;
+                             color: #999;
+                             transition: $transition;
+                             margin: .5rem 2.5rem .5rem 0;
+                             &:hover{
+                                transition: $transition;
+                                color: #000;
+                                transform: scale(1.019);
+                             }
+                         }
+                     }
+                   }
+               }
+           }
+       
+       //    <!--Auction----Client-view-->
+         .Auction-Client-view-wrp{
+             @include flex;
+             justify-content: space-between;
+             align-items: inherit!important;
+             .Client-Left-Wrp{
+                 width: 65%;
+                 .Client-Heading{
+                     h2{
+                         @include h2;
+                         font-size: 1.3;
+                     }
+                     p{
+                         font-size: 1em;
+                         text-transform: $cap;
+                         letter-spacing: .5px;
+                         word-spacing: 1px;
+                         line-height: 1.5;
+                         padding: .5rem 0;
+                     }
+                 }
+                 .Client-View-Content{
+                    width: 100%;
+                     .Tab-wrp-unorder1{
+                         width: 100%;
+                         @include flex;
+                         justify-content: $between;
+                        .Ft{
+                            border: none;
+                            font-size: 1em;
+                            text-transform: $cap;
+                            color:$site-color;
+                            padding-bottom: .5rem;
+                            width: 24%;
+                            border-radius: inherit!important;
+                        }
+                        .Featur-active{
+                            border-bottom: 1px solid #000!important;
+                            color: #000;
+                        }
+                     }
+                     .Client_List{
+                         li{
+                            border: none;
+                            font-size: 1em;
+                            text-transform: $cap;
+                            color:$site-color;
+                            padding-bottom: .5rem;
+                            width: 100%;
+                            border-radius: inherit!important; 
+                            @include flex;
+                            justify-content: $between;
+                            .l01{
+                                width: 49%;
+                            }
+                         }
+                     }
+                 }
+             }
+             .Client-Right-Wrp{
+                width: 35%;
+                overflow: hidden;
+                .blank-box{
+                    width: 100%;
+                    height: 100vh;
+                    background: #eee;
+                }
+            }
+         }
+
+      //    <!--Auction----Client-view-end----here->
+
+       }
+   } 
+}

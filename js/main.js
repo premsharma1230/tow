@@ -331,7 +331,17 @@ function openFeature(ListName) {
   }
 
   ///forme---endd
-  //--popular-Features---active--
+    //--autction=-----detail---active--
+
+    function openClient(ListName) {
+      var i;
+      var x = document.getElementsByClassName(" Client-cmn1");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(ListName).style.display = "block";  
+    }
+  //--autction=-----detail--//
 
   function openPopFeature(ListName) {
     var i;
