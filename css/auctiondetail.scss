@@ -113,11 +113,11 @@
                          border-bottom: 1px solid #999;
                         .Ft{
                             border: none;
-                            font-size: 1em;
+                            font-size: 1.22em;
                             text-transform: $cap;
                             color:$site-color;
                             padding-bottom: .5rem;
-                            width: 14%;text-align: center;
+                            width: 21%;text-align: center;
                             margin-right: 2rem;
                             font-weight: bold;
                             border-radius: inherit!important;
@@ -175,15 +175,37 @@
    } 
 }
 
-.UsedCar-Detail-Wrapper{
+.UsedCar-Detail-Wrapper,.AuctionDetail-Wrapper{
     width: 100%;
-    .UsedCar-Detail_left{
+    .UsedCar-Detail_left,.AuctionDetail-Left{
         .auc-item4 {
             width: 100%;
             h3{
                 width: 100%;
                 font-size: 1.4em!important;
                 color: #000!important;
+            }
+        }
+        .Client_List{
+            .l01{
+                p{
+                    font-size: 1em;
+                    color:#6b6b6b;
+                    text-transform: $cap;
+                    // letter-spacing: .5px;
+                    word-spacing: 1px;
+                    padding: .3rem 0;
+                }
+                h4{
+                    font-size: 1em;
+                    color: #000!important;
+                    text-transform: $cap;
+                    letter-spacing: .5px;
+                    word-spacing: 1px;
+                    font-weight: 500;
+                    padding: .3rem 0;
+                    font-family: 'Gotham Pro Regular';
+                }
             }
         }
     }

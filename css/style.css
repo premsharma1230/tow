@@ -57,6 +57,7 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 .sticky {
@@ -3040,6 +3041,7 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 .sticky {
@@ -3629,6 +3631,7 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 .sticky {
@@ -3964,6 +3967,7 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 .sticky {
@@ -4169,11 +4173,11 @@ hr.rv-hr {
 
 .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
   border: none;
-  font-size: 1em;
+  font-size: 1.22em;
   text-transform: capitalize;
   color: #172f55;
   padding-bottom: .5rem;
-  width: 14%;
+  width: 21%;
   text-align: center;
   margin-right: 2rem;
   font-weight: bold;
@@ -4241,18 +4245,37 @@ hr.rv-hr {
   background: #eee;
 }
 
-.UsedCar-Detail-Wrapper {
+.UsedCar-Detail-Wrapper, .AuctionDetail-Wrapper {
   width: 100%;
 }
 
-.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4 {
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4, .UsedCar-Detail-Wrapper .AuctionDetail-Left .auc-item4, .AuctionDetail-Wrapper .UsedCar-Detail_left .auc-item4, .AuctionDetail-Wrapper .AuctionDetail-Left .auc-item4 {
   width: 100%;
 }
 
-.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4 h3 {
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4 h3, .UsedCar-Detail-Wrapper .AuctionDetail-Left .auc-item4 h3, .AuctionDetail-Wrapper .UsedCar-Detail_left .auc-item4 h3, .AuctionDetail-Wrapper .AuctionDetail-Left .auc-item4 h3 {
   width: 100%;
   font-size: 1.4em !important;
   color: #000 !important;
+}
+
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .Client_List .l01 p, .UsedCar-Detail-Wrapper .AuctionDetail-Left .Client_List .l01 p, .AuctionDetail-Wrapper .UsedCar-Detail_left .Client_List .l01 p, .AuctionDetail-Wrapper .AuctionDetail-Left .Client_List .l01 p {
+  font-size: 1em;
+  color: #6b6b6b;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  padding: .3rem 0;
+}
+
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .Client_List .l01 h4, .UsedCar-Detail-Wrapper .AuctionDetail-Left .Client_List .l01 h4, .AuctionDetail-Wrapper .UsedCar-Detail_left .Client_List .l01 h4, .AuctionDetail-Wrapper .AuctionDetail-Left .Client_List .l01 h4 {
+  font-size: 1em;
+  color: #000 !important;
+  text-transform: capitalize;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  font-weight: 500;
+  padding: .3rem 0;
+  font-family: 'Gotham Pro Regular';
 }
 
 @media only screen and (max-width: 1200px) {
