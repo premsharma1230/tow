@@ -3989,11 +3989,15 @@ hr.rv-hr {
   height: 1px;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .ovr-right {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper {
+  padding: 0 0 3rem;
+}
+
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .ovr-right {
   border-bottom: inherit !important;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .Auc-detail-head {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .Auc-detail-head {
   border-bottom: 1px solid #cfcfcf;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4011,7 +4015,7 @@ hr.rv-hr {
           justify-content: space-between;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .Auc-detail-head span {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .Auc-detail-head span {
   text-transform: capitalize;
   font-size: 1.4em;
   word-spacing: 1px;
@@ -4019,7 +4023,7 @@ hr.rv-hr {
   color: #000;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder li {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4040,20 +4044,20 @@ hr.rv-hr {
   border-radius: inherit !important;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 {
   padding-right: 1.5rem;
   font-weight: 300 !important;
   color: #777 !important;
   font-size: 1.2em !important;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3 i, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 i {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3 i, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 i {
   font-size: 15px;
   color: #000;
   margin-right: 4px;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item4 .btn2 {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item4 .btn2 {
   width: 45%;
   padding: .7rem .5rem;
   margin: .5rem 0;
@@ -4070,13 +4074,13 @@ hr.rv-hr {
   transition: all 0.3s ease-in-out;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item4 .btn2:hover {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item4 .btn2:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   opacity: .77;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i {
   font-size: 1.9em;
   cursor: pointer;
   color: #999;
@@ -4085,7 +4089,7 @@ hr.rv-hr {
   margin: .5rem 2.5rem .5rem 0;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i:hover {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: #000;
@@ -4093,7 +4097,7 @@ hr.rv-hr {
           transform: scale(1.019);
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4111,13 +4115,14 @@ hr.rv-hr {
   -webkit-box-align: inherit !important;
       -ms-flex-align: inherit !important;
           align-items: inherit !important;
+  padding: 2rem 0 0;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp {
   width: 65%;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading h2 {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   line-height: 1.5;
@@ -4125,9 +4130,10 @@ hr.rv-hr {
   color: #172f55;
   padding: 1rem 0;
   font-size: 1.3;
+  padding: 0.5rem 0 0 !important;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading p {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading p {
   font-size: 1em;
   text-transform: capitalize;
   letter-spacing: .5px;
@@ -4136,11 +4142,11 @@ hr.rv-hr {
   padding: .5rem 0;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content {
   width: 100%;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4153,27 +4159,46 @@ hr.rv-hr {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: .5rem 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
   border: none;
   font-size: 1em;
   text-transform: capitalize;
   color: #172f55;
   padding-bottom: .5rem;
-  width: 24%;
+  width: 14%;
+  text-align: center;
+  margin-right: 2rem;
+  font-weight: bold;
   border-radius: inherit !important;
+  cursor: pointer;
+  margin: .0rem 0 0;
+  padding: .9rem 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Featur-active {
-  border-bottom: 1px solid #000 !important;
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.019);
+          transform: scale(1.019);
+}
+
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Featur-active {
+  border-bottom: 2px solid #000 !important;
   color: #000;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Client_List li {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Client_List li {
   border: none;
   font-size: 1em;
   text-transform: capitalize;
@@ -4195,21 +4220,39 @@ hr.rv-hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-bottom: 1px solid #d4d4d4;
+  margin: 0 0 .5rem;
+  padding: .5rem 0 .8rem;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Client_List li .l01 {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Client_List li .l01 {
   width: 49%;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Right-Wrp {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Right-Wrp {
   width: 35%;
+  height: 100vh;
   overflow: hidden;
 }
 
-.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Auction-Client-view-wrp .Client-Right-Wrp .blank-box {
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Right-Wrp .blank-box {
   width: 100%;
   height: 100vh;
   background: #eee;
+}
+
+.UsedCar-Detail-Wrapper {
+  width: 100%;
+}
+
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4 {
+  width: 100%;
+}
+
+.UsedCar-Detail-Wrapper .UsedCar-Detail_left .auc-item4 h3 {
+  width: 100%;
+  font-size: 1.4em !important;
+  color: #000 !important;
 }
 
 @media only screen and (max-width: 1200px) {

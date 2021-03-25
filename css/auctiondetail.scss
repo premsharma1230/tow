@@ -3,6 +3,8 @@
 .AuctionDetail-Wrapper{
    .AuctionDetail-Wrp{
        .AuctionDetail-Left{
+           .Specs-wrapper{
+               padding: 0 0 3rem;
            .Aucdetail-wrp1{
             .ovr-right{border-bottom: inherit!important;}
                .auc-right{
@@ -82,12 +84,14 @@
              @include flex;
              justify-content: space-between;
              align-items: inherit!important;
+             padding: 2rem 0 0;
              .Client-Left-Wrp{
                  width: 65%;
                  .Client-Heading{
                      h2{
                          @include h2;
                          font-size: 1.3;
+                         padding: .5rem 0 0!important; 
                      }
                      p{
                          font-size: 1em;
@@ -103,18 +107,32 @@
                      .Tab-wrp-unorder1{
                          width: 100%;
                          @include flex;
-                         justify-content: $between;
+                         justify-content: flex-start;
+                         margin: .5rem 0;
+                         border-top: 1px solid #999;
+                         border-bottom: 1px solid #999;
                         .Ft{
                             border: none;
                             font-size: 1em;
                             text-transform: $cap;
                             color:$site-color;
                             padding-bottom: .5rem;
-                            width: 24%;
+                            width: 14%;text-align: center;
+                            margin-right: 2rem;
+                            font-weight: bold;
                             border-radius: inherit!important;
+                            cursor: pointer;
+                            margin: .0rem 0 0;
+                            padding: .9rem 0;
+                            transition: $transition;
+                            &:hover{
+                                opacity: .77;
+                                transition: $transition;
+                                transform: scale(1.019);
+                            }
                         }
                         .Featur-active{
-                            border-bottom: 1px solid #000!important;
+                            border-bottom: 2px solid #000!important;
                             color: #000;
                         }
                      }
@@ -129,6 +147,9 @@
                             border-radius: inherit!important; 
                             @include flex;
                             justify-content: $between;
+                            border-bottom: 1px solid #d4d4d4;
+                            margin: 0 0 .5rem;
+                            padding: .5rem 0 .8rem;
                             .l01{
                                 width: 49%;
                             }
@@ -138,6 +159,7 @@
              }
              .Client-Right-Wrp{
                 width: 35%;
+                height: 100vh;
                 overflow: hidden;
                 .blank-box{
                     width: 100%;
@@ -148,7 +170,21 @@
          }
 
       //    <!--Auction----Client-view-end----here->
-
        }
+    }
    } 
+}
+
+.UsedCar-Detail-Wrapper{
+    width: 100%;
+    .UsedCar-Detail_left{
+        .auc-item4 {
+            width: 100%;
+            h3{
+                width: 100%;
+                font-size: 1.4em!important;
+                color: #000!important;
+            }
+        }
+    }
 }
