@@ -151,7 +151,7 @@ $(".expand-close").click(function(){
   $(this).removeClass("expand-wrp");
 })
 $(".expand-close").click(function(){ 
-  $(this).removeClass("expand-wrp");
+  $(".Ft-Fig").removeClass("expand-wrp");
 })
 // ---Expand---img-----end---here
 
