@@ -1403,16 +1403,33 @@ width: 100%;
                         overflow: hidden!important;
                         z-index: 99;
                         @include flex;
+                        animation: scaleanime .3s linear;
+                        transition: $transition;
+                        @keyframes scaleanime {
+                            0%{transition: $transition;transform: scale(0);  }
+                            100%{transition: $transition;transform: scale(1);  }
+                        }
                         figure{
-                            width: 70%;
+                            width: 60%;
                             height: 100%!important;
                             background: #fff;
-                            margin: 0 auto;
+                            margin: 0  0 0 auto;
                             border-radius: 5px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             position: relative;
+                            animation:anime2 1s linear;
+                            @keyframes anime2 {
+                                0%{
+                                    right:-100%;
+                                    transition: $transition;
+                                }
+                                100%{
+                                    right: 0;
+                                    transition: $transition;
+                                }
+                            }
                             .expand-close{
                                 display: block!important;
                                 right: 20px;
@@ -1455,7 +1472,7 @@ width: 100%;
                             display: flex;
                             transform: rotate(45deg);
                             height: 25px;
-                            width: 12px;
+                            width: 12px;  
                             border-bottom: 4px solid #ffffff;
                             border-right: 4px solid #ffffff;
                             position: absolute;
@@ -1463,7 +1480,7 @@ width: 100%;
                             top: 20%;
                             justify-content: center;
                             align-items: center;
-                            vertical-align: middle;
+                            vertical-align: middle;  
                         }
                     }
                     .owl-dot {

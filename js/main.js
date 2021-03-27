@@ -52,6 +52,15 @@ $(document).ready(function(){
       }
     });
 
+    $(".Price-cmn1").click(function () {
+      if(!$(this).hasClass('price-active-btn'))
+      {    
+          $(".Price-cmn1.price-active-btn").removeClass("price-active-btn");
+           $(".Price-cmn1.price-active-btn").css("transition","all .4s ease-in-out");
+          $(this).addClass("price-active-btn");  
+          $(this).css("transition","all .4s ease-in-out");      
+      }
+    });
        // add & Remove class----Login---Active
        $(".Lbl-cmn").click(function () {
         if(!$(this).hasClass('Log-active'))
@@ -161,8 +170,15 @@ $(".Close-wrp").click(function(){
 })
 
 // ---Slide--Toggles---//
+$(".headingTab01").click(function(){ 
+  $(".Collaps-Cnt01").slideToggle("");
+  $(".Collaps-Cnt1").slideUp("");
+  $(".Collaps-Cnt2").slideUp("");
+  $(".Collaps-Cnt3").slideUp("");
+})
 $(".headingTab1").click(function(){ 
   $(".Collaps-Cnt1").slideToggle("");
+  $(".Collaps-Cnt01").slideUp("");
   $(".Collaps-Cnt2").slideUp("");
   $(".Collaps-Cnt3").slideUp("");
 })
@@ -170,11 +186,13 @@ $(".headingTab2").click(function(){
   $(".Collaps-Cnt2").slideToggle("");
   $(".Collaps-Cnt1").slideUp("");
   $(".Collaps-Cnt3").slideUp("");
+  $(".Collaps-Cnt01").slideUp("");
 })
 $(".headingTab3").click(function(){ 
   $(".Collaps-Cnt3").slideToggle("");
   $(".Collaps-Cnt1").slideUp("");
   $(".Collaps-Cnt2").slideUp("");
+  $(".Collaps-Cnt01").slideUp("");
 })
 // ---Collapse---img-----end---here
 
@@ -204,7 +222,7 @@ $(".headingTab3").click(function(){
   
        // ------slider2--
        $('.slider2').owlCarousel({
-        loop: true,
+        // loop: true,
         margin: 0,
         // autoplay: true,
          nav: true,
@@ -388,9 +406,19 @@ function openFeature(ListName) {
     document.getElementById(ListName).style.display = "block";  
   }
   // selll-end
+  // openPrice 
+    function openPrice(ListName) {
+      var i;
+      var x = document.getElementsByClassName(" PriceForm");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(ListName).style.display = "block";  
+    } 
+  
+// ---price--end--here----this ---in---selll --page--//
 
-
-//--bottom--to--top--- and------stickyyy---on----header---//
+// --bottom--to--top--- and------stickyyy---on----header---//
 var navbar = document.getElementById("navbar"); 
 window.onscroll = function() {
     matrixFunction()  

@@ -25,7 +25,7 @@
                             padding: .5rem 2.6rem;
                             cursor: pointer;
                             }
-                            .S-Active-btn{
+                            .S-Active-btn,.price-active-btn{
                                 background: $site-color;
                                 color:#fff;
                                 transition: $transition;
@@ -303,12 +303,12 @@
                         }
                     }
                     // -----******//
-                    .Collaps-Cnt1,.Collaps-Cnt2,.Collaps-Cnt3{
+                    .Collaps-Cnt01,.Collaps-Cnt1,.Collaps-Cnt2,.Collaps-Cnt3{
                         display: none;
                     }
 
                     //==------******---//
-                    .Collaps-Cnt2,.Collaps-Cnt3{
+                    .Collaps-Cnt2{
                        form{
                            .Collap-Form-wrp{
                            .Collp-Lft1{
@@ -379,35 +379,76 @@
                     }
 
                     .Collaps-Cnt3{
-                        .F-inpt-wrp{
-                            width: 100%;
-                            label{
-                                width: 50%!important;
-                                position: relative;
-                                input{
-                                    width: 100%!important;
-                                }
-                                .Verify-btn{
-                                    position: absolute;
-                                    top: 0;
-                                    right: -2px;
-                                    padding: 0!important;
-                                    margin: 0!important;
-                                    width: 100px!important;
-                                    text-align: center;
-                                    background: transparent!important;
-                                    #Submit2{
-                                      background: $site-color;
-                                      color: #fff;
-                                      text-align: center;
-                                      transition: $transition;
-                                      &:hover{
-                                      transition: $transition;
-                                      opacity: .77;
-                                      }   
-                                    }
-                                }
-                            }
+                        form{
+                            .Collap-Form-wrp{
+                            .Collp-Lft1{
+                                width: 100%!important; 
+                                 .Coll-Left-Content{
+                                       .Cl01{
+                                            h2{
+                                                @include h2;
+                                                padding: .5rem 0;
+                                            }  
+                                       }
+                                       .F-inpt-wrp{
+                                           width: 36%; 
+                                           label{
+                                            width: 50%!important;
+                                            position: relative;
+                                            input{
+                                                padding: .6rem .5rem;
+                                                width: 100%;
+                                                margin: .5rem 0;
+                                                text-transform: capitalize;
+                                                font-size: 1em;
+                                                letter-spacing: .5px;
+                                                word-spacing: 1px;
+                                                color: #172f55;
+                                                border: 1px solid #172f55;
+                                                transition: all 0.3s ease-in-out;
+                                                border-radius: 5px;
+                                                outline: none;
+                                                &:hover{
+                                                    border-color: #000;
+                                                    transition: all 0.3s ease-in-out;
+                                                }
+                                                &:focus{
+                                                    transform: scale(1.009);
+                                                    transition: all 0.3s ease-in-out;
+                                                    box-shadow: 0 0 1px 3px rgba(153, 153, 153, 0.329);
+                                                }
+                                              }
+                                            .Verify-btn{
+                                                position: absolute;
+                                                top: -19px;
+                                                right: -1px;
+                                                padding: 0!important;
+                                                margin: 0!important;
+                                                width: 100px!important;
+                                                text-align: center;
+                                                background: transparent!important;
+                                                #Submit2{
+                                                  background: $site-color;
+                                                  color: #fff;
+                                                  text-align: center;
+                                                  transition: $transition;
+                                                  &:hover{
+                                                  transition: $transition;
+                                                   background: #000;
+                                                   opacity: 1;
+                                                  }   
+                                                }
+                                            }
+                                        }
+                                       }
+                                    //    .Finpt1{
+                                    //        border-bottom: 1px solid #999;
+                                    //        padding-bottom: 1.6rem;
+                                    //        margin-bottom: 1.2rem;
+                                    //    }
+                                 } 
+                             }
+                           }
                         }
                     }
                 }
