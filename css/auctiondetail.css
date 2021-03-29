@@ -295,6 +295,18 @@ hr.rv-hr {
   background: #eee;
 }
 
+.UsedCar-Detail-Wrapper .usd-car h2 {
+  padding: 0.5rem 0 !important;
+}
+
+.UsedCar-Detail-Wrapper .usd-car p {
+  width: 100%;
+  padding: 0 0 0.7rem !important;
+  font-size: 1.2em !important;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
 .UsedCar-Detail-Wrapper, .AuctionDetail-Wrapper {
   width: 100%;
 }
