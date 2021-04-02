@@ -2152,11 +2152,12 @@ width: 100%;
 } 
 
 // ----Car-color-------Page-end--here---//
-
+.main-bar,.srch-icon2{
+    display:none;
+}
 
 
 @import 'sell';
 @import 'login';
 @import 'auctiondetail';
 @import 'media';
- 
