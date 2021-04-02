@@ -4906,4 +4906,40 @@ hr.rv-hr {
     top: 58px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .main-bar div {
+    width: 29px;
+    height: 2px;
+  }
+  .main-bar {
+    right: 25px;
+    top: 18px;
+  }
+  main header nav .nav-left-item .logo {
+    width: 31%;
+  }
+  main .Main-form-wrp .child-content .Form-wrp form .Frm-cmn input {
+    padding: 0.7rem .5rem;
+    margin: .5rem 0;
+  }
+  main .Main-form-wrp .child-content .Form-wrp .Fbtn-tab ul li {
+    width: 48%;
+    padding: .5rem 0.3rem;
+  }
+  main .Features-Wrapper .Feaures-content {
+    padding: .6rem;
+    margin: 1rem 0;
+  }
+  main .Features-Wrapper .Feaures-content .Feature-heading .Top-heading li {
+    font-size: 1.1em;
+    word-spacing: .5px;
+  }
+  main header nav .nav-left-item .search-bar {
+    width: 100%;
+    left: 0;
+    top: 70px;
+    border-radius: 0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
