@@ -967,9 +967,10 @@ main{
          .Ld-btn{
              width: 100%;
              text-align: center;
-             padding: 1rem 0 0;
+             padding: 1rem 0 2rem;
              a{
               padding: .9rem 2.5rem;
+              display: inline-block;
               border-radius: 5px;
               font-size: 1.3em;
               color: $fff;
@@ -1097,60 +1098,61 @@ width: 100%;
                         transition:$transition;
                         color: #000;
                     }
-                }
-                .location{
-                    width: 100%; padding: .9rem 0 .5rem;
-                    position: relative;
-                    .LC-Map{
-                        position: absolute;
-                        right: 40px;
-                        top: 24px;
-                        i{
-                            font-size: 1.1em;
-                            color: #172f55;
-                            transition: $transition;
-                            cursor: pointer;
-                            animation: Lmapanime 4s linear infinite; 
-                            &:hover{
-                                transition: $transition; 
-                                transform: rotateY(180deg)scale(1.1); 
-                                animation-play-state: paused;
-                                color: #000;
-                            }
-                            @keyframes Lmapanime {
-                                0%,100%{
-                                    transform: translateY(3px);
-                                    transition: $transition;
-                                }
-                                50%{
-                                    transform: translateY(-3px); 
-                                    transition: $transition;
-                                }
-                            }
-                        }
-                    }
-                    input{ 
-                        padding: .7rem .5rem;
-                        text-transform: $cap;
-                        font-size: 14px;
-                        color: #999; 
-                        outline: none;
-                        width: 85%;
-                        margin: 0 auto 1rem auto!important;
-                        border-radius: 10px;
-                        display: flex;
-                        justify-content: center;
-                        border: 1px solid #999;
+                } 
+            }
+            .location{
+                width: 100%; padding: .9rem 0 .5rem;
+                position: relative;
+                display: inline-block;
+                .LC-Map{
+                    position: absolute;
+                    right: 40px;
+                    top: 24px;
+                    i{
+                        font-size: 1.1em;
+                        color: #172f55;
                         transition: $transition;
+                        cursor: pointer;
+                        animation: Lmapanime 4s linear infinite; 
                         &:hover{
-                            transition: $transition;
-                            border:1px solid #000;
+                            transition: $transition; 
+                            transform: rotateY(180deg)scale(1.1); 
+                            animation-play-state: paused;
+                            color: #000;
                         }
-                        &:focus{
-                            transition: $transition;
-                            box-shadow:0 0 3px 1px #172f5570
-                        } 
+                        @keyframes Lmapanime {
+                            0%,100%{
+                                transform: translateY(3px);
+                                transition: $transition;
+                            }
+                            50%{
+                                transform: translateY(-3px); 
+                                transition: $transition;
+                            }
+                        }
                     }
+                }
+                input{ 
+                    padding: .7rem .5rem;
+                    text-transform: $cap;
+                    font-size: 14px;
+                    color: #999; 
+                    outline: none;
+                    width: 85%;
+                    margin: 0 auto 1rem auto!important;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    border: 1px solid #999;
+                    transition: $transition;
+                    &:hover{
+                        transition: $transition;
+                        border:1px solid #000;
+                    }
+                    &:focus{
+                        transition: $transition;
+                        box-shadow:0 0 3px 1px #172f5570
+                    } 
                 }
             }
         }

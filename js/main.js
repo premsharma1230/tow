@@ -76,9 +76,9 @@ $(document).ready(function(){
   $(".srch-icon2").click(function(){
        $(".search-bar").fadeToggle("");
   })
-  $(".Banner_Wrapper").click(function(){
-    $(".search-bar").hide("");
-})
+//   $(".Banner_Wrapper").click(function(){
+//     $(".search-bar").hide("");
+// })
 
   
   
@@ -92,6 +92,12 @@ $(document).ready(function(){
 // })
   $(".Fill-heart .fa-heart").click(function( ){ 
     $(this).toggleClass("active-heart");
+})
+
+// --filter----//
+$(".right-top-heading h2").click(function( ){ 
+  $(".Filter-collaps-wrp").toggleClass("filter2-wrp"); 
+  // $(".Filter-collaps-wrp").css({"right":"25px","transition":"all .3s ease-in-out"}); 
 })
 
 // ---Collapse-1---
