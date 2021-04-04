@@ -4647,6 +4647,33 @@ hr.rv-hr {
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content .car-right .collapse-wrp .collapse-content form .Cl-cmn01 p label span {
     font-size: 14px;
   }
+  .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
+    font-size: 1.3em;
+  }
+  .UsedCar-Detail-Wrapper .usd-car p {
+    font-size: 1.1em !important;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item4 .btn2 {
+    width: 65%;
+    padding: .6rem .5rem;
+    font-size: 1.1em;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 {
+    font-size: 1.1em !important;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i {
+    font-size: 1.5em;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading h2 {
+    font-size: 1.3em;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading p {
+    font-size: 15px;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+    font-size: 1.1em;
+    padding: .5rem 0;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -4711,6 +4738,9 @@ hr.rv-hr {
   }
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content .car-right .right-top-heading h2 {
     font-size: 1.5em;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+    width: 23%;
   }
 }
 
@@ -4802,6 +4832,9 @@ hr.rv-hr {
   }
   .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Key-Spec-wrp .key-content .KeyL1 {
     padding-right: 0rem;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+    width: 25%;
   }
 }
 
@@ -4935,7 +4968,6 @@ hr.rv-hr {
     transition: all .6s ease-in-out;
   }
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content {
-    overflow: hidden;
     position: relative;
   }
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content .car-left {
@@ -4956,6 +4988,32 @@ hr.rv-hr {
   .Used_bike_Wrapper .Used-bike-wrp .Used-bike-right .right-top-heading h5 {
     font-size: 1em;
     margin: 0 0 0 1.4rem;
+  }
+  .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn {
+    width: 100%;
+    overflow: hidden;
+  }
+  .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
+    font-size: 1.2em;
+  }
+  .UsedCar-Detail-Wrapper .usd-car p {
+    padding: 0 0 0.7rem !important;
+    font-size: 1.09em !important;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder .auc-item5 i {
+    font-size: 1.4em;
+    margin: .5rem 1.6rem .5rem 0;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Right-Wrp {
+    width: 100%;
+    height: 180px;
+    margin: 2rem 0 0;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp {
+    width: 100%;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp {
+    padding: 1rem 0 0;
   }
 }
 
@@ -5214,6 +5272,12 @@ hr.rv-hr {
   .Used_bike_Wrapper .Used-bike-wrp .Used-bike-right .location .LC-Map i {
     font-size: 15px;
   }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp {
+    padding: 0rem 0 0;
+  }
+  .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-right {
+    padding: 0 0 .5rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -5394,6 +5458,28 @@ hr.rv-hr {
     right: 31px;
     top: 24px;
   }
+  .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
+    font-size: 1.24em;
+  }
+  .UsedCar-Detail-Wrapper .usd-car p {
+    font-size: 1em !important;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading h2 {
+    font-size: 1.2em;
+    padding: 0.0rem 0 0 !important;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-Heading p {
+    font-size: 14px;
+    padding: .5rem 0;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+    font-size: 1em;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Right-Wrp {
+    width: 100%;
+    height: 150px;
+    margin: 1rem 0 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -5468,8 +5554,8 @@ hr.rv-hr {
     word-spacing: .5px;
   }
   .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
-    font-size: 1.3em;
-    padding: 1rem 0 .5rem;
+    font-size: 1.11em;
+    padding: 0.8rem 0 !important;
   }
   .Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right h3 {
     font-size: 1.1em !important;
@@ -5590,6 +5676,16 @@ hr.rv-hr {
     top: 19px;
     text-align: right;
   }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Tab-wrp-unorder1 .Ft {
+    width: 32%;
+  }
+  .UsedCar-Detail-Wrapper .UsedCar-Detail_left .Client_List .l01 p, .UsedCar-Detail-Wrapper .AuctionDetail-Left .Client_List .l01 p, .AuctionDetail-Wrapper .UsedCar-Detail_left .Client_List .l01 p, .AuctionDetail-Wrapper .AuctionDetail-Left .Client_List .l01 p {
+    font-size: 14px;
+    padding: .3rem 0;
+  }
+  .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp .Client-Left-Wrp .Client-View-Content .Client_List li .l01 h3 {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -5631,7 +5727,7 @@ hr.rv-hr {
     margin: 0.9rem 0 1rem;
   }
   .Used_bike_Wrapper .Used-bike-wrp .breadcmb ul li {
-    margin: .5rem .5rem .9rem 0;
+    margin: .5rem .5rem .2rem 0;
   }
   .Used_bike_Wrapper .Used-bike-wrp .breadcmb ul li .fa-caret-right {
     font-size: 13px;
@@ -5648,8 +5744,8 @@ hr.rv-hr {
     height: 64%;
   }
   .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn h2 {
-    font-size: 1.3em;
-    padding: 1.4rem 0 .5rem;
+    font-size: 1.2em;
+    padding: 1rem 0 0.5rem 0 !important;
   }
   .Car_Color_Wrapper .Feature1 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong, .Car_Color_Wrapper .Feature3 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong, .Car_Color_Wrapper .Feature2 .overview-wrapper .overview-content .Overview-child-wrp .ovr-cmn .review strong {
     font-size: 14px;
@@ -5719,7 +5815,7 @@ hr.rv-hr {
     top: 14px;
   }
   .CarList-Wrapper .Car-List-wrapper .Top-heading li {
-    font-size: 1.179em;
+    font-size: 1em;
     padding: .5rem 0 .8rem;
   }
   .Filter-collaps-wrp {
