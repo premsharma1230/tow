@@ -566,6 +566,7 @@ hr.rv-hr {
     transition: all .6s ease-in-out;
   }
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content {
+    overflow: hidden;
     position: relative;
   }
   .CarList-Wrapper .Car-List-wrapper .Car-list-child-wrp .Car-list-Content .car-left {
@@ -612,6 +613,14 @@ hr.rv-hr {
   }
   .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Auction-Client-view-wrp {
     padding: 1rem 0 0;
+  }
+  .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-next, .Car_Color_Wrapper .Car-Slide-wrp .Car-Product main .Features-Wrapper .Feaures-content .Feature-item-wrp .FItem-wrp .owl-prev, main .Features-Wrapper .Feaures-content .Feature-item-wrp .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev, .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev {
+    width: 40px;
+    height: 40px;
+    right: -12px;
+  }
+  .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev {
+    left: -12px !important;
   }
 }
 
@@ -762,11 +771,11 @@ hr.rv-hr {
     height: 38px;
     -webkit-box-shadow: 0 0 6px 1px #9999999e;
             box-shadow: 0 0 6px 1px #9999999e;
-    right: -30px;
+    right: -11px;
     top: 45%;
   }
   .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev {
-    left: -31px !important;
+    left: -11px !important;
   }
   .Car_Color_Wrapper .Feature2 .Varient-Wrapper .Varient-child-wrp .Vr-right {
     width: 100% !important;
@@ -978,10 +987,10 @@ hr.rv-hr {
     height: 36px;
     -webkit-box-shadow: 0 0 4px 1px #99999987;
             box-shadow: 0 0 4px 1px #99999987;
-    right: -21px;
+    right: -6px;
   }
   .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev {
-    left: -21px !important;
+    left: -6px !important;
   }
   .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-next span, .Car_Color_Wrapper .Car-Slide-wrp .Car-Product .FItem-wrp .owl-prev span {
     font-size: 1.6em;
