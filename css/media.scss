@@ -301,7 +301,18 @@
     width: 23%;
 }
 // ---bike--detaill-page--end--here---//
-
+    // --auction--page----
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a {
+        padding: .4rem 1.4rem; 
+        font-size: 1em; 
+        margin: .4rem 1.3rem .4rem 0; 
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 li a {
+        padding: .4rem 0rem; 
+        font-size: 1em; 
+        margin: .4rem 1.2rem .4rem 0; 
+    } 
+    //---auction--page---end--here--//
 }
 
 @media only screen and (max-width:800px){
@@ -393,7 +404,49 @@
     width: 25%;
 }
 // ---bike--detaill-page--end--here---//
+// auctionn---pagge--end--here---//
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 {
+    font-size: 1em !important;
+}
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .Auc-detail-head span {
+    font-size: 1.2em; 
+}
+.AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h3 i, .AuctionDetail-Wrapper .AuctionDetail-Wrp .AuctionDetail-Left .Specs-wrapper .Aucdetail-wrp1 .auc-right .aucDetail-unorder li h4 i {
+    font-size: 13px; 
+}
+// -----auction---pag---end--here---///
 
+// ---sell--pageg----
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collap-heading h2 {
+    padding: .8rem 0;
+    font-size: 1.2em;
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collap-heading span i {
+    font-size: 1em; 
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collap-heading{
+    box-shadow:0 0px 4px 2px #99999930 !important;
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt01, .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt1, .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2, .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3{
+    box-shadow:0 0px 4px 2px #99999930 !important;
+}
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp {
+    width: 100%; 
+    grid-template-columns: repeat(3, 1fr); 
+}
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder li{
+    font-size: 1em;
+}
+ .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input {
+    padding: .5rem .3rem; 
+    margin: .5rem .5rem; 
+    font-size: 15px; 
+} 
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Frm-next-btn {
+    width: 100%; 
+    margin: 2rem 0 1.1rem;
+}
+///--sel----page--end--here//
 }
 
 @media only screen and (max-width:767px) {
@@ -582,6 +635,48 @@
         left: -12px !important;
     }
     // ---bike---detail--page--end--here
+    // --auction--page----
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a {
+        padding: .3rem 1.4rem; 
+        font-size: 1em; 
+        margin: .4rem 1.3rem .4rem 0; 
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 li a {
+        padding: .3rem 0rem; 
+        font-size: 1em; 
+        margin: .4rem 1.2rem .4rem 0; 
+    }
+    .Used-action-left {
+        padding: 2rem 0 0 0!important;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .auction-cmn01 {
+        width: 100%;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2{
+        justify-content: flex-start;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 h2{
+        font-size: 1.3em;
+    }
+    //---auction--page---end--here--//
+    // --sellllpage--
+    .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 {
+        width: 100%;
+    }
+    .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 a {
+        padding: .9rem .5rem; 
+        margin: .5rem 0 0.3rem; 
+    }
+    .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 .Ryt-heading {
+        padding: .7rem .5rem; 
+        border: 1.9px dashed; 
+        margin: .4rem 0 0; 
+    }
+    .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 .Ryt-content {
+        padding: .6rem .5rem; height: 200px;
+        border: 1.9px dashed; 
+    }
+    // --selll--page---end--here--//
 }
 
 @media only screen and (max-width:600px) {
@@ -836,7 +931,19 @@ Content .car-right .collapse-wrp .collapse-content form .Cl-cmn01 p strong,.Cl-c
    padding: 0 0 .5rem;
 }
 // bike--detail---end--here--//
+// ---sell---page---
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder li{
+    width: 46%;
+}
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder{
+    justify-content: space-between;
+}
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .5rem 1.5rem;
+}
 
+// sell--page---end-here--/
 }
 
 @media only screen and (max-width:480px){
@@ -1044,6 +1151,42 @@ Content .car-right .collapse-wrp .collapse-content form .Cl-cmn01 p strong,.Cl-c
         margin: 1rem 0 0;
     }
     // ---bike---detaillll-end--here--//
+    // ---auction----page---//
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 h2 {
+        font-size: 1.1em;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a {
+        padding: .3rem 1rem;
+        font-size: 15px;
+        margin: .4rem 1rem .4rem 0;
+    }
+    .Auction-child-wrp{
+        .right-top-heading {
+            display: inline-flex!important;
+            text-align: center;
+            right: 27px;
+            top: 21px!important;
+        } 
+    } 
+    //----auction---page-----end--here//
+    // ---sell---page---
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder li{
+    width: 100%;
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0 1rem; 
+}
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder{
+    margin: 0rem 0 0;
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Frm-next-btn a input {
+    cursor: pointer;
+    padding: .6rem 3rem; 
+    font-size: 1em; 
+}
+// sell--page---end-here--/
 }
 
 @media only screen and (max-width:375px){
@@ -1251,7 +1394,43 @@ Content .car-right .collapse-wrp .collapse-content form .Cl-cmn01 p strong,.Cl-c
         font-size: 14px;
     }
     // car--detailll---page---end--here//
+// --auction---detaillll-----page----
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading2 .Auction-tab-unord2 {
+       justify-content: space-around;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1{
+        justify-content: space-around;
+    }
+    .Auction-Wrapper .Auction-wrp .auction-top-heading .Auction-heading1 .Auction-tab-unord1 li a {
+        padding: .3rem .6rem;
+        font-size: 14px;
+        margin: .4rem .5rem .4rem 0;
+    }
+// auctionnn---page---end--here---//
+    // ---sell---page---
+ 
+    .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp {
+        width: 100%; 
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: .1rem 1.5rem;
+    }
+    
+.Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 select, .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-Form-wrp form .Form-chil-wrp .S-cmn1 input {
+    padding: .5rem .3rem; 
+    margin: .4rem .5rem; 
+    font-size: 14px; 
+}
 
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Frm-next-btn {
+    width: 100%; 
+    margin: 1.5rem 0 0.1rem;
+}
+.Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collap-heading h2 {
+    font-size: 1.5em; 
+    padding: .6rem 0;
+    font-size: 1.1em;
+}
+    // sell--page---end-here--/
 }
 
 @media only  screen and(max-width:320px) {
