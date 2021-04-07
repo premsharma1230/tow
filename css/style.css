@@ -3086,6 +3086,15 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
   opacity: .77;
 }
 
+.Viewall_Wrapper .View-Feature .Feaures-content .Feature-item-wrp .FItem-wrp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 2rem 1rem;
+  text-align: center;
+}
+
 .main-bar, .srch-icon2 {
   display: none;
 }

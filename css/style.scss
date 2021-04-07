@@ -2154,9 +2154,32 @@ width: 100%;
 } 
 
 // ----Car-color-------Page-end--here---//
+
+
+// ---View--alll---page----///
+.Viewall_Wrapper{
+    .View-Feature{
+        .Feaures-content {
+            .Feature-item-wrp{
+                .FItem-wrp{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+                    grid-gap: 2rem 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+ 
+/////--end--here-----///
+
+
+
 .main-bar,.srch-icon2{
     display:none;
 }
+
 
 
 @import 'sell';
