@@ -3784,7 +3784,7 @@ hr.rv-hr {
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left::before {
   content: '';
   width: 100%;
-  height: 99%;
+  height: 100%;
   background: #172f558a;
   position: absolute;
   left: 0;
@@ -3793,19 +3793,17 @@ hr.rv-hr {
 
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp {
   width: 100%;
-}
-
-.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp img {
-  max-width: 100%;
-  border-radius: 5px;
+  height: 90vh;
+  background: url(../image/login-bg.png) no-repeat;
+  background-size: cover;
 }
 
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
   width: 40%;
-  margin: 0 auto 0 0;
-  position: absolute;
-  top: 51px;
-  right: 29px;
+  margin: 0 0 0 auto;
+  position: relative;
+  top: 3rem;
+  right: 2.5rem;
   border-radius: 5px;
   background: #fff;
   padding: 1rem 1rem;
@@ -4674,6 +4672,15 @@ hr.rv-hr {
     font-size: 1.1em;
     padding: .5rem 0;
   }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp {
+    width: 100%;
+    height: 100vh;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
+    width: 50%;
+    top: 2rem;
+    right: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -5116,6 +5123,25 @@ hr.rv-hr {
     height: 200px;
     border: 1.9px dashed;
   }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp label {
+    width: 33%;
+    margin-right: 1rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp {
+    width: 64%;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
+    width: 65%;
+    top: 2rem;
+    right: 2.2rem;
+    padding: .5rem 1rem;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg-cmn01 input, .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg-cmn01 select {
+    width: 100%;
+    padding: .7rem .5rem;
+    margin: .5rem 0;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -5381,6 +5407,7 @@ hr.rv-hr {
   }
   .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder li {
     width: 46%;
+    text-align: center;
   }
   .Sell-Wrapper .Sell-Sub-wrp .Sell-Content-Wrp .Sell-Left .Sell-Sub-left .Sell-heading .Sell-unorder {
     -webkit-box-pack: justify;
@@ -5391,6 +5418,46 @@ hr.rv-hr {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     grid-gap: .5rem 1.5rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp label {
+    width: 41%;
+    margin-right: 1rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Cl01 h3 {
+    font-size: 1.2em;
+    padding: 0.5rem 0 !important;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Cl01 h3 b {
+    font-size: 12px;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Cl01 h3 i {
+    font-size: 14px;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Cl01 h2 {
+    font-size: 1.4em;
+    padding: .5rem 0 0rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Finpt1 {
+    border-bottom: 1px solid #999999a1;
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.2rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp {
+    width: 80%;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .Cl01 h2 {
+    font-size: 1.4em;
+    padding: 1rem 0;
+    padding: .5rem 0;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-heading h2 {
+    font-size: 1.33em;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
+    width: 90%;
+    margin: 0 auto;
+    top: 2rem;
+    right: 0rem;
   }
 }
 
@@ -5625,6 +5692,40 @@ hr.rv-hr {
     cursor: pointer;
     padding: .6rem 3rem;
     font-size: 1em;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp label {
+    width: 44%;
+    margin-right: 1rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp {
+    width: 100%;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt3 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp label input {
+    font-size: 14px;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Frm-next-btn a input {
+    padding: .6rem 3.5rem;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg5 .S-Google input {
+    padding: .6rem .5rem;
+    font-size: 1em;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg5 .Pswrd {
+    font-size: 14px;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg5 h3 {
+    font-size: 1em;
+    padding: .6rem 0 .3rem;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg4 label input {
+    font-size: 1em;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg3 .Label1 b {
+    font-size: 14px;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg3 .Label1 input {
+    width: 14px;
+    height: 14px;
   }
 }
 
@@ -5864,6 +5965,29 @@ hr.rv-hr {
     font-size: 1.5em;
     padding: .6rem 0;
     font-size: 1.1em;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 .L1 p {
+    font-size: 14px;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 .L1 h3 {
+    font-size: 1em;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Cnt2 form .Collap-Form-wrp .Collp-Lft1 .Coll-Left-Content .F-inpt-wrp label {
+    width: 100%;
+    margin-right: 0rem;
+  }
+  .Sell2-Wrapper .Sell2-sub-wrp .Sell2-Content-Wrp .Sell2-Left .Collaps-Wrp .Collaps-Content form .Collap-Form-wrp .Col-Wrp1 .Ryt-content {
+    padding: .6rem .5rem;
+    height: 150px;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-heading h2 {
+    font-size: 1.233em;
+  }
+  .Signup_Wrapper .Signup-Wrp .Signup-Content-Wrp .Signup-left .Log-Trade-wrp .log-form-wrp form .Lg5 a {
+    font-size: 1em;
+  }
+  .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg4 label input {
+    font-size: 1em;
   }
 }
 

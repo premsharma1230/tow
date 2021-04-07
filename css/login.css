@@ -60,7 +60,7 @@ hr.rv-hr {
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left::before {
   content: '';
   width: 100%;
-  height: 99%;
+  height: 100%;
   background: #172f558a;
   position: absolute;
   left: 0;
@@ -69,19 +69,17 @@ hr.rv-hr {
 
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp {
   width: 100%;
-}
-
-.Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Fig-wrp img {
-  max-width: 100%;
-  border-radius: 5px;
+  height: 90vh;
+  background: url(../image/login-bg.png) no-repeat;
+  background-size: cover;
 }
 
 .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp {
   width: 40%;
-  margin: 0 auto 0 0;
-  position: absolute;
-  top: 51px;
-  right: 29px;
+  margin: 0 0 0 auto;
+  position: relative;
+  top: 3rem;
+  right: 2.5rem;
   border-radius: 5px;
   background: #fff;
   padding: 1rem 1rem;
