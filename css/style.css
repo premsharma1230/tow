@@ -3095,6 +3095,82 @@ main footer .footer-content .ft-cmn .Social-wrp li a i {
   text-align: center;
 }
 
+.search-wrp {
+  width: 406px;
+  height: 300px;
+  background: #fff;
+  overflow-y: scroll;
+  position: absolute;
+  top: 67px;
+  display: none;
+  left: 18%;
+  z-index: 70;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 7px 2px #172f5596;
+          box-shadow: 0 2px 7px 2px #172f5596;
+}
+
+.search-wrp::-webkit-scrollbar-thumb {
+  background: #172f55;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.search-wrp::-webkit-scrollbar-thumb:hover {
+  background: #172f55b2;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-wrp::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #eee;
+}
+
+.search-wrp::-webkit-scrollbar {
+  width: 8px;
+  height: 100%;
+}
+
+.search-wrp .Srch-Unorder {
+  height: 400px;
+}
+
+.search-wrp .Srch-Unorder h3 {
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: .1px;
+  padding: 0 1.5rem;
+  font-size: 1.2em;
+  margin: .6rem 0;
+  color: #172f55;
+}
+
+.search-wrp .Srch-Unorder li {
+  display: block;
+  list-style-type: none;
+}
+
+.search-wrp .Srch-Unorder li a {
+  text-decoration: none;
+  padding: .8rem 1.5rem;
+  background: #eeeeee59;
+  text-transform: capitalize;
+  color: #444;
+  font-size: 1em;
+  display: block;
+  margin-bottom: .5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-wrp .Srch-Unorder li a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #eee;
+}
+
 .main-bar, .srch-icon2 {
   display: none;
 }
@@ -4690,6 +4766,12 @@ hr.rv-hr {
     top: 2rem;
     right: 2.2rem;
   }
+  .search-wrp {
+    width: 63%;
+    height: 300px;
+    top: 67px;
+    left: 23%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -5468,6 +5550,15 @@ hr.rv-hr {
     top: 2rem;
     right: 0rem;
   }
+  .Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address {
+    width: 100%;
+  }
+  .search-wrp {
+    width: 89%;
+    height: 300px;
+    top: 112px;
+    left: 5%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -5736,6 +5827,24 @@ hr.rv-hr {
     width: 14px;
     height: 14px;
   }
+  .search-wrp {
+    width: 89%;
+    height: 300px;
+    top: 107px;
+    left: 5%;
+    -webkit-box-shadow: 0 0px 4px 1px #172f5554;
+            box-shadow: 0 0px 4px 1px #172f5554;
+  }
+  .search-wrp .Srch-Unorder li a {
+    padding: .6rem 1.2rem;
+    font-size: 15px;
+    margin-bottom: .3rem;
+  }
+  .search-wrp .Srch-Unorder h3 {
+    padding: 0 1.2rem;
+    font-size: 1.1em;
+    margin: .6rem 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -5998,6 +6107,25 @@ hr.rv-hr {
   .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg4 label input {
     font-size: 1em;
   }
+  .search-wrp {
+    width: 89%;
+    top: 100px;
+    left: 5%;
+  }
+  .search-wrp .Srch-Unorder li a {
+    padding: .5rem 1rem;
+    font-size: 14px;
+    margin-bottom: .3rem;
+  }
+  .search-wrp .Srch-Unorder h3 {
+    padding: 0 1rem;
+    font-size: 1.1em;
+    margin: .2rem 0;
+  }
+  .search-wrp::-webkit-scrollbar {
+    width: 6px;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -6031,8 +6159,13 @@ hr.rv-hr {
   main header nav .nav-left-item .search-bar {
     width: 100%;
     left: 0;
-    top: 70px;
+    top: 62px;
     border-radius: 0px;
+  }
+  .search-wrp {
+    width: 90%;
+    height: 250px;
+    top: 103px;
   }
   main .Features-Wrapper {
     width: 100%;

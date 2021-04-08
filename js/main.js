@@ -75,12 +75,19 @@ $(document).ready(function(){
 
   $(".srch-icon2").click(function(){
        $(".search-bar").fadeToggle("");
+       $(".search-wrp").slideUp("");
   })
 //   $(".Banner_Wrapper").click(function(){
 //     $(".search-bar").hide("");
 // })
 
-  
+
+$("#searchbar").click(function(){
+  $(".search-wrp").slideToggle("");
+})
+$(".Banner_Wrapper").click(function(){
+  $(".search-wrp").slideUp("");
+})
   
 //-----------heart------//
 
@@ -233,9 +240,9 @@ jQuery('.main-bar').click(function(e) {
 
       // ------slider1--
   $('.slider1').owlCarousel({
-    loop: false,
+    loop: true,
     margin: 0,
-    // autoplay: true, 
+    autoplay: true, 
     autoplayTimeout: 4000,
     smartSpeed: 1500,
     animateOut: 'fadeOut',
@@ -518,3 +525,25 @@ startTime();
 //     document.documentElement.scrollTop = 0;
 // };
 // //end--here--//
+
+
+
+// -----on--search---car----
+
+
+function carSearchFn() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("searchbar");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("Srch-Unorder");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+} 

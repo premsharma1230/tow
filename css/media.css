@@ -281,6 +281,12 @@ hr.rv-hr {
     top: 2rem;
     right: 2.2rem;
   }
+  .search-wrp {
+    width: 63%;
+    height: 300px;
+    top: 67px;
+    left: 23%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1059,6 +1065,15 @@ hr.rv-hr {
     top: 2rem;
     right: 0rem;
   }
+  .Car_Color_Wrapper .Dealers-Address_wrp .Dealers-Content-wrp address {
+    width: 100%;
+  }
+  .search-wrp {
+    width: 89%;
+    height: 300px;
+    top: 112px;
+    left: 5%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1327,6 +1342,24 @@ hr.rv-hr {
     width: 14px;
     height: 14px;
   }
+  .search-wrp {
+    width: 89%;
+    height: 300px;
+    top: 107px;
+    left: 5%;
+    -webkit-box-shadow: 0 0px 4px 1px #172f5554;
+            box-shadow: 0 0px 4px 1px #172f5554;
+  }
+  .search-wrp .Srch-Unorder li a {
+    padding: .6rem 1.2rem;
+    font-size: 15px;
+    margin-bottom: .3rem;
+  }
+  .search-wrp .Srch-Unorder h3 {
+    padding: 0 1.2rem;
+    font-size: 1.1em;
+    margin: .6rem 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -1589,6 +1622,25 @@ hr.rv-hr {
   .Login-Wrapper .Login-wrp .Login-Content-Wrp .Login-Left .Log-Trade-wrp .log-form-wrp form .Lg4 label input {
     font-size: 1em;
   }
+  .search-wrp {
+    width: 89%;
+    top: 100px;
+    left: 5%;
+  }
+  .search-wrp .Srch-Unorder li a {
+    padding: .5rem 1rem;
+    font-size: 14px;
+    margin-bottom: .3rem;
+  }
+  .search-wrp .Srch-Unorder h3 {
+    padding: 0 1rem;
+    font-size: 1.1em;
+    margin: .2rem 0;
+  }
+  .search-wrp::-webkit-scrollbar {
+    width: 6px;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1622,8 +1674,13 @@ hr.rv-hr {
   main header nav .nav-left-item .search-bar {
     width: 100%;
     left: 0;
-    top: 70px;
+    top: 62px;
     border-radius: 0px;
+  }
+  .search-wrp {
+    width: 90%;
+    height: 250px;
+    top: 103px;
   }
   main .Features-Wrapper {
     width: 100%;
