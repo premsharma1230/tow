@@ -6126,6 +6126,17 @@ hr.rv-hr {
     width: 6px;
     height: 100%;
   }
+  main .Features-Wrapper .Feaures-content .Brand-wrp figure {
+    height: 79px !important;
+  }
+  main .Features-Wrapper .Feaures-content .Brand-wrp figure img {
+    height: 70px !important;
+    width: 40%;
+    margin: 0 auto;
+  }
+  main .Features-Wrapper .Feaures-content .Brand-wrp figcaption {
+    padding: 0 0 !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
